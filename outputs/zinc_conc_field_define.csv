@@ -1,0 +1,84 @@
+fields
+Date
+Matching Fields
+Consignee
+Consignee Address
+Consignee City
+Consignee State/Region
+Consignee Postal Code
+Consignee Country
+Consignee Full Address
+Consignee Email 1
+Consignee Email 2
+Consignee Email 3
+Consignee Phone 1
+Consignee Phone 2
+Consignee Phone 3
+Consignee Fax
+Consignee Website 1
+Consignee Website 2
+Consignee Profile
+Consignee D-U-N-S®
+Consignee Industry
+Consignee Revenue
+Consignee Employees
+Consignee Market Capitalization
+Consignee Incorporation Year
+Consignee Trade Roles
+Consignee SIC Codes
+Consignee Stock Tickers
+Consignee Ultimate Parent
+Consignee Ultimate Parent Website
+Consignee Ultimate Parent Headquarters Address
+Consignee Ultimate Parent Profile
+Consignee Ultimate Parent Stock Tickers
+Shipper
+Shipper Address
+Shipper City
+Shipper State/Region
+Shipper Postal Code
+Shipper Country
+Shipper Full Address
+Shipper Email 1
+Shipper Email 2
+Shipper Email 3
+Shipper Phone 1
+Shipper Phone 2
+Shipper Phone 3
+Shipper Fax
+Shipper Website 1
+Shipper Website 2
+Shipper Profile
+Shipper D-U-N-S®
+Shipper Industry
+Shipper Revenue
+Shipper Employees
+Shipper Market Capitalization
+Shipper Incorporation Year
+Shipper Trade Roles
+Shipper SIC Codes
+Shipper Stock Tickers
+Shipper Ultimate Parent
+Shipper Ultimate Parent Website
+Shipper Ultimate Parent Headquarters Address
+Shipper Ultimate Parent Profile
+Shipper Ultimate Parent Stock Tickers
+SCAC
+Shipment Origin
+Shipment Destination
+Port of Lading
+Port of Lading Country
+Port of Lading UN/LOCODE
+Port of Unlading
+Port of Unlading Country
+Port of Unlading UN/LOCODE
+Transport Method
+HS Code
+Goods Shipped
+Is Containerized
+Volume (TEU)
+Weight (KG)
+Value (USD)
+Data Source
+Data Source Trade Direction
+Parcel Size (MT)

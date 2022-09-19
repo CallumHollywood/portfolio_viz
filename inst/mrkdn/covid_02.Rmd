@@ -1,0 +1,152 @@
+---
+title: "covid"
+output: html_document
+date: "2022-09-15"
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "C:/nexus/biz/potential_biz/portfolio/charts/charts")
+
+pacman::p_load(
+  dplyr
+  , ggplot2
+  , tidyr
+  , ggthemes
+  , stringr
+)
+
+```
+
+
+```{r}
+
+covid_in <- readr::read_csv('data/covid/date,geoid,state,cases,cases_avg,cases_a.csv')
+
+
+```
+
+```{r}
+
+# covid_in %>% 
+#   select(state) %>% 
+#   distinct() %>% 
+#   arrange(state) %>% 
+#   readr::write_csv('data/covid/covid_states.csv')
+
+terrains <- readr::read_csv('data/covid/covid_states.csv')
+
+terrains <- terrains %>% 
+  mutate(terrain = stringr::str_to_title(terrain))
+
+```
+
+```{r}
+
+covid_terrains <- covid_in %>% 
+  inner_join(terrains, by = c('state'))
+
+covid_terrains 
+
+```
+
+
+```{r}
+
+covid_terrains <- covid_terrains %>% 
+  group_by(date, terrain) %>% 
+  mutate(
+    trn_cases_avg_per_100k = mean(cases_avg_per_100k, na.rm=T)
+    , trn_deaths_avg_per_100k = mean(deaths_avg_per_100k, na.rm=T)
+  ) %>% 
+  ungroup()
+
+covid_terrains
+
+```
+
+
+
+```{r}
+
+covid_trn_lng <- covid_terrains %>% 
+  select(date, terrain, trn_cases_avg_per_100k, trn_deaths_avg_per_100k) %>% 
+  pivot_longer(3:4, names_to = 'metric') 
+
+covid_trn_lng
+
+```
+
+
+
+
+```{r}
+
+covid_trn_lng_plt <- covid_trn_lng %>% 
+  mutate(metric = stringr::str_remove(metric, 'trn_')) %>% 
+  mutate(metric = stringr::str_replace_all(metric, '_', ' ')) %>% 
+  mutate(metric = str_replace_all(metric, 'cases ', 'Cases\n')) %>% 
+  mutate(metric = str_replace_all(metric, 'deaths ', 'Deaths\n')) %>% 
+  mutate(metric = str_replace_all(metric, 'avg ', 'avg\n'))
+
+covid_trn_lng_plt
+
+```
+
+
+
+```{r}
+
+plot_fndtion <- ggplot() +
+  geom_line(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain == 'Mainland', metric == 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , color = "#69b3a2"
+    
+  ) +
+  geom_density(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain == 'Mainland', metric != 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , fill = "#69b3a2"
+    , color = "#69b3a2"
+  ) +
+  geom_line(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain != 'Mainland', metric == 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , color = "#82a7e8"
+    
+  ) +
+  geom_density(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain != 'Mainland', metric != 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , fill = "#82a7e8"
+    , color = "#82a7e8"
+  ) +
+  facet_grid(metric ~ terrain , scales = 'free_y') +
+  theme_wsj() +
+  theme(
+    strip.text.y = element_text(angle = 0)
+  )
+
+plot_fndtion_2 <- plot_fndtion +
+  labs(
+    title = "Comparison of Covid Cases & Deaths between Mainland and Island USA"
+  ) +
+  scale_y_continuous(n.breaks = 3) +
+  theme(
+    plot.title = element_text(size = 10)
+    , axis.text.y.left = element_text(size = 8)
+    , axis.text.x = element_text(size = 8)
+    , panel.spacing = unit(2, "lines")
+  )
+
+plot_fndtion_2
+
+```
+
+

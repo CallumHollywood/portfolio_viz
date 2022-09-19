@@ -1,0 +1,104 @@
+
+
+
+
+Licence and use limitations
+
+Jurisdiction Creative Commons Attribution 4.0 International License
+Other Constraints
+
+The citation in a list of references is: "IMOS [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access]."
+
+Any users of IMOS data are required to clearly acknowledge the source of the material derived from IMOS in the format: "Data was sourced from Australia?s Integrated Marine Observing System (IMOS) ? IMOS is enabled by the National Collaborative Research Infrastructure strategy (NCRIS)." If relevant, also credit other organisations involved in collection of this particular datastream (as listed in 'credit' in the metadata record).
+Usage Constraints
+
+Data, products and services from IMOS are provided "as is" without any warranty as to fitness for a particular purpose.
+
+By using this data you are accepting the license agreement and terms specified above. You accept all risks and responsibility for losses, damages, costs and other consequences resulting directly or indirectly from using this site and any information or material available from it.
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir='C:/nexus/biz/potential_biz/portfolio/charts/charts')
+
+```
+
+
+
+```{r}
+
+# library(rgdal)
+# library(broom)
+# library(ggplot2)
+# library(svglite)
+library(tidyverse)
+# library(maptools)
+# library(raster)
+# library(rgeos)
+library(dplyr)
+
+```
+
+
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
+FR0797 <- readr::read_csv('data/marine/IMOS_SRS-OC-BODBAW_X_19970804T200300Z_FR0797-pigment_FV02_END-19970817T010100Z.csv'
+                          , skip = 104
+                          ) %>% 
+  janitor::clean_names()
+
+FR0797
+
+```
+
+
+```{r}
+
+
+data_FR0797 <- FR0797 %>% 
+  dplyr::select(time, station_code, latitude, longitude, depth, cphl_c1, cphl_c2, cphl_c3)
+
+data_FR0797
+
+```
+
+```{r}
+
+data_FR0797 %>% 
+  mutate(depth_rev = depth * -1) %>% 
+  ggplot(aes(depth, depth_rev)) +
+  geom_col()
+
+
+```
+
+
+
+```{r}
+
+data_FR0797 %>% 
+  mutate(depth_rev = depth * -1) %>% 
+  filter(depth > 45, depth < 52)
+
+```
+
+
+```{r}
+
+data_FR0797 %>% 
+  mutate(depth_rev = depth * -1) %>% 
+  ggplot(aes(depth, depth_rev)) +
+  geom_col()
+
+
+```
+

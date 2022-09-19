@@ -1,0 +1,136 @@
+---
+title: "drinks"
+output: html_document
+date: "2022-09-16"
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "C:/nexus/biz/potential_biz/portfolio/charts/charts")
+
+library(tidyverse)
+
+```
+
+
+prep for the next chart....
+
+idea...
+
+aggretae the drinks data at
+https://github.com/fivethirtyeight/data/blob/master/alcohol-consumption/drinks.csv
+to continent and design with pie charts as shown here
+http://www.spectdata.com/index.php/2018/10/25/how-to-use-ggplot-to-plot-pie-charts-on-a-map/
+
+
+```{r}
+
+
+drinks <- readr::read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv') %>% 
+  janitor::clean_names()
+
+
+
+```
+
+```{r}
+
+drinks
+
+```
+
+
+```{r}
+
+continents <- readr::read_csv('https://raw.githubusercontent.com/dbouquin/IS_608/master/NanosatDB_munging/Countries-Continents.csv') %>% 
+  janitor::clean_names()
+
+```
+
+```{r}
+
+drinks_wide <- drinks %>% 
+  left_join(continents, by = 'country') %>% 
+  mutate(continent = case_when(
+    country   == 'Niue'                         ~ 'Oceania'
+    , country == 'South Korea'                  ~ 'Asia'
+    , country == 'St. Kitts & Nevis'            ~ 'North America'
+    , country == 'St. Lucia'                    ~ 'Africa'
+    , country == 'St. Vincent & the Grenadines' ~ 'North America'
+    , country == 'Sao Tome & Principe'          ~ 'Africa'
+    , country == 'Timor-Leste'                  ~ 'Asia'
+    , country == 'Trinidad & Tobago'            ~ 'North America'
+    , country == 'USA'                          ~ 'North America'
+    , country == 'Antigua & Barbuda'            ~ 'North America'
+    , country == 'Bosnia-Herzegovina'           ~ 'Europe'
+    , country == 'Burkina Faso'                 ~ 'Africa'
+    , country == "Cote d'Ivoire"                ~ 'Africa'
+    , country == 'Cabo Verde'                   ~ 'Africa'
+    , country == 'Cook Islands'                 ~ 'Oceania'
+    , country == 'Czech Republic'               ~ 'Europe'
+    , country == 'North Korea'                  ~ 'Asia'
+    , country == 'DR Congo'                     ~ 'Africa'
+    , country == 'Myanmar'                      ~ 'Asia'
+    , T ~ continent
+  ))
+
+drinks_wide
+
+```
+
+
+```{r}
+
+drinks_wide %>% 
+  # filter(is.na(continent)) %>% 
+  select(country, continent)
+
+```
+
+
+```{r}
+
+drinks_cont <- drinks_wide %>% 
+  group_by(continent) %>% 
+  summarise(
+    beer_servings                  = mean(beer_servings, na.rm=T)
+    , spirit_servings              = mean(spirit_servings, na.rm=T)
+    , wine_servings                = mean(wine_servings, na.rm=T)
+    , total_litres_of_pure_alcohol = mean(total_litres_of_pure_alcohol, na.rm=T)
+  )
+
+drinks_cont
+
+```
+
+
+
+
+
+
+```{r}
+
+worldmap <- map_data("world")
+
+worldmap
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

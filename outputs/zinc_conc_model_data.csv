@@ -1,0 +1,838 @@
+date,consignee,consignee_country,shipper,shipper_country,shipment_origin,shipment_destination,port_of_lading,port_of_lading_country,port_of_unlading_country,transport_method,goods_shipped,parcel_size_mt,weight,parcel_bin_2
+2020-12-16T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera Igmar Sa De Cv,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,186.304,0 - 2500
+2020-12-15T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,12500,10000 - 12500
+2020-12-12T00:00:00Z,Teck Metals Ltd.,Canada,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Canada,Maritime,CONCENTRADO DE ZINC,>7000t,11002.25,10000 - 12500
+2020-12-12T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10550.69,10000 - 12500
+2020-12-08T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera Igmar Sa De Cv,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,222.845,0 - 2500
+2020-11-30T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,<4000t,337.46,0 - 2500
+2020-11-28T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5211.7,5000 - 7500
+2020-11-27T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,295.04,0 - 2500
+2020-11-27T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,9579.189,7500 - 10000
+2020-11-26T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11501.26,10000 - 12500
+2020-11-26T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,3115.89,2500 - 5000
+2020-11-25T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11501.06,10000 - 12500
+2020-11-24T00:00:00Z,"Samsung Sds Co., Ltd.",NA,Qssc Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,834.34,0 - 2500
+2020-11-21T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5615.94,5000 - 7500
+2020-11-11T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera Igmar Sa De Cv,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,222.5,0 - 2500
+2020-11-05T00:00:00Z,Trafigura Trading Llc,United States,Z Inc. International S.A.,Mexico,Mexico,United States,Altamira (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,408.99,0 - 2500
+2020-11-04T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,221.206,0 - 2500
+2020-11-03T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,1500.01,0 - 2500
+2020-10-31T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,9514.06,7500 - 10000
+2020-10-31T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,505.98,0 - 2500
+2020-10-27T00:00:00Z,Boliden Commercial Ab,Sweden,Z Inc. International S.A.,Mexico,Mexico,Finland,Altamira (MX),Mexico,Sweden,Maritime,CONCENTRADO DE ZINC,<4000t,101.21,0 - 2500
+2020-10-26T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4287.54,2500 - 5000
+2020-10-26T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1386.05,0 - 2500
+2020-10-23T00:00:00Z,Glencore International Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9901.13,7500 - 10000
+2020-10-23T00:00:00Z,Transamine Trading S.A,Switzerland,Z Inc. International S.A.,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,647.73,0 - 2500
+2020-10-22T00:00:00Z,Hong Kong Tri Union Resources Ltd.,Hong Kong,Metco Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,505.13,0 - 2500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,490.95,0 - 2500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1222.31,0 - 2500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3180.12,2500 - 5000
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5046.09,5000 - 7500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,586.31,0 - 2500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,68.13,0 - 2500
+2020-10-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,229.89,0 - 2500
+2020-10-16T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10677.01,10000 - 12500
+2020-10-16T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10678.41,10000 - 12500
+2020-10-03T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,<4000t,630,0 - 2500
+2020-10-03T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4937.29,2500 - 5000
+2020-09-29T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,509.56,0 - 2500
+2020-09-28T00:00:00Z,Transamine Trading S.A,Switzerland,Transamine Trading De Mexico Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,286.46,0 - 2500
+2020-09-26T00:00:00Z,Glencore International Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000.58,10000 - 12500
+2020-09-24T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11001.38,10000 - 12500
+2020-09-22T00:00:00Z,Ocean Partners Usa Inc.,United States,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,3638.25,2500 - 5000
+2020-09-19T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4026.45,2500 - 5000
+2020-09-14T00:00:00Z,Transamine Trading S.A,Switzerland,Transamine Trading De Mexico Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5359.34,5000 - 7500
+2020-09-11T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,952.87,0 - 2500
+2020-09-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5398.24,5000 - 7500
+2020-09-10T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,1013.51,0 - 2500
+2020-09-09T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9098.41,7500 - 10000
+2020-09-09T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11000.41,10000 - 12500
+2020-09-08T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11334.27,10000 - 12500
+2020-09-07T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5559.57,5000 - 7500
+2020-09-04T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2997.663,2500 - 5000
+2020-09-03T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1198.98,0 - 2500
+2020-09-03T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5888.24,5000 - 7500
+2020-08-29T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADOS DE ZINC,<4000t,223.71,0 - 2500
+2020-08-27T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,186.558,0 - 2500
+2020-08-25T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4000.6,2500 - 5000
+2020-08-22T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,18000.17,12500 and up
+2020-08-19T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5555.87,5000 - 7500
+2020-08-19T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADOS DE ZINC,<4000t,284.85,0 - 2500
+2020-08-19T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,186.749,0 - 2500
+2020-08-14T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5500,5000 - 7500
+2020-08-13T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11000.93,10000 - 12500
+2020-08-13T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11000.63,10000 - 12500
+2020-08-11T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADOS DE ZINC,<4000t,506.68,0 - 2500
+2020-08-06T00:00:00Z,Group Llc,United States,Petrichor Exp. And Service S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO INDUSTRIAL DE ZINC,<4000t,38.535,0 - 2500
+2020-07-29T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000.5,10000 - 12500
+2020-07-29T00:00:00Z,Glencore International Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Italy,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5500.87,5000 - 7500
+2020-07-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,1857.397,0 - 2500
+2020-07-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3291.27,2500 - 5000
+2020-07-21T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5562.7,5000 - 7500
+2020-07-13T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,506.7,0 - 2500
+2020-07-10T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5867,5000 - 7500
+2020-07-08T00:00:00Z,"Qingdao Explore International Trade Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO SUCIO DE ZINC,<4000t,63.68,0 - 2500
+2020-06-30T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,507.3,0 - 2500
+2020-06-26T00:00:00Z,Teck Metals Ltd.,Canada,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Canada,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2020-06-23T00:00:00Z,Glencore International Ag,Switzerland,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11045,10000 - 12500
+2020-06-23T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Belgium,Maritime,CONCENTRADO DE CINC,>7000t,11000.76,10000 - 12500
+2020-06-18T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11001.5,10000 - 12500
+2020-06-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Hecla Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,21.58,0 - 2500
+2020-06-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5252.726,5000 - 7500
+2020-06-13T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5494.89,5000 - 7500
+2020-06-04T00:00:00Z,Transamine Trading S.A,Switzerland,Transamine Trading De Mexico Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,801.41,0 - 2500
+2020-06-03T00:00:00Z,Transamine Trading S.A,Switzerland,Transamine Trading De Mexico Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4182.55,2500 - 5000
+2020-05-28T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,730.04,0 - 2500
+2020-05-26T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,260,0 - 2500
+2020-05-26T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,730.44,0 - 2500
+2020-05-26T00:00:00Z,Transamine Trading S.A,Switzerland,Z Inc. International S.A.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,20.31,0 - 2500
+2020-05-25T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,559.63,0 - 2500
+2020-05-23T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11161.48,10000 - 12500
+2020-05-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,13200,12500 and up
+2020-05-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,289.75,0 - 2500
+2020-05-15T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10441.68,10000 - 12500
+2020-05-13T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Comercializadora Corsario Merco Centro Norte S.A. De C.V.,Mexico,Mexico,United Kingdom,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,45.56,0 - 2500
+2020-05-11T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5111.26,5000 - 7500
+2020-05-07T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Comercializadora Corsario Merco Centro Norte S.A. De C.V.,Mexico,Mexico,United Kingdom,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,48.76,0 - 2500
+2020-05-06T00:00:00Z,Concord Resources Ltd.,United Kingdom,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,>7000t,11638.55,10000 - 12500
+2020-05-05T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,438.475,0 - 2500
+2020-05-02T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,506.2,0 - 2500
+2020-04-29T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,424.83,0 - 2500
+2020-04-27T00:00:00Z,Young Poong Corporation,South Korea,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10011,10000 - 12500
+2020-04-27T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,510.899,0 - 2500
+2020-04-25T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,1437.915,0 - 2500
+2020-04-24T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2020-04-23T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11151.87,10000 - 12500
+2020-04-17T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,>7000t,11300,10000 - 12500
+2020-04-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4282.85,2500 - 5000
+2020-04-15T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5837.66,5000 - 7500
+2020-04-14T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4412.43,2500 - 5000
+2020-04-13T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,421.781,0 - 2500
+2020-04-13T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,506.81,0 - 2500
+2020-04-08T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3270.89,2500 - 5000
+2020-04-08T00:00:00Z,Young Poong Corporation,South Korea,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11616,10000 - 12500
+2020-04-08T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,16481.54,12500 and up
+2020-04-08T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,16480.7,12500 and up
+2020-04-06T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,969.82,0 - 2500
+2020-04-06T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,1665.34,0 - 2500
+2020-04-06T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3787.557,2500 - 5000
+2020-04-02T00:00:00Z,Earth Resources International Ltd.,Hong Kong,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,India,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,45.52,0 - 2500
+2020-04-01T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minerales Inguaran S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,170.37,0 - 2500
+2020-03-31T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Mapa Transportes S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,446.509,0 - 2500
+2020-03-30T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Hecla Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,305.25,0 - 2500
+2020-03-30T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,544.41,0 - 2500
+2020-03-30T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,8200.626,7500 - 10000
+2020-03-27T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11322.02,10000 - 12500
+2020-03-27T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,CONCENTRADOS ZINC,<4000t,86.4028,0 - 2500
+2020-03-25T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,9358.86,7500 - 10000
+2020-03-25T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Hecla Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,626.72,0 - 2500
+2020-03-24T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,506.6,0 - 2500
+2020-03-23T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5502.15,5000 - 7500
+2020-03-23T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,11005.14,10000 - 12500
+2020-03-17T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11002.71,10000 - 12500
+2020-03-17T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11000.24,10000 - 12500
+2020-03-12T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4954.83,2500 - 5000
+2020-03-11T00:00:00Z,Pionner Metal Trading Llc,United States,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Turkey,Veracruz (MX),Mexico,United States,Maritime,CONCENTRADOS DE ZINC,<4000t,25.44,0 - 2500
+2020-03-09T00:00:00Z,"Chanwill Development Co., Ltd.",China,Metco Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE ZINC,<4000t,992.495,0 - 2500
+2020-03-06T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5217.35,5000 - 7500
+2020-02-29T00:00:00Z,Glencore International Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11001.38,10000 - 12500
+2020-02-28T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11011.95,10000 - 12500
+2020-02-26T00:00:00Z,Trafigura Trading Llc,United States,Z Inc. International S.A.,Mexico,Mexico,South Korea,Altamira (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,487.91,0 - 2500
+2020-02-24T00:00:00Z,Pionner Metal Trading Llc,United States,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Turkey,Veracruz (MX),Mexico,United States,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2020-02-24T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,732.03,0 - 2500
+2020-02-19T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3923.14,2500 - 5000
+2020-02-18T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7410.89,5000 - 7500
+2020-02-18T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,12526.81,12500 and up
+2020-02-18T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,732.08,0 - 2500
+2020-02-13T00:00:00Z,Nyrstar Clarksville Inc.,NA,Z Inc. International S.A.,Mexico,Mexico,United States,Altamira (MX),Mexico,United States,Maritime,CONCENTRADOS DE ZINC,<4000t,486.55,0 - 2500
+2020-02-12T00:00:00Z,Rezinal Nv,Belgium,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Belgium,Veracruz (MX),Mexico,Belgium,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2020-02-08T00:00:00Z,"Tianjin Joy Bright International Trade Co., Ltd.",China,Divine Harvest S. De R.L. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC TRITURADO,<4000t,75.31,0 - 2500
+2020-02-06T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5560,5000 - 7500
+2020-02-05T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2020-02-05T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,13518.85,12500 and up
+2020-02-04T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2020-02-01T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,709.61,0 - 2500
+2020-01-28T00:00:00Z,Young Poong,South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10051.31,10000 - 12500
+2020-01-28T00:00:00Z,Earth Resources International Ltd.,Hong Kong,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Hong Kong,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,45.205,0 - 2500
+2020-01-27T00:00:00Z,Everz Inc. Belgium Sa,Belgium,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Belgium,Veracruz (MX),Mexico,Belgium,Maritime,ZINC CONCENTRATES (CONCENTRADOS DE ZINC),<4000t,25.036,0 - 2500
+2020-01-25T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5963.92,5000 - 7500
+2020-01-25T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,16250.39,12500 and up
+2020-01-24T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7852.16,7500 - 10000
+2020-01-24T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,United Kingdom,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,46,0 - 2500
+2020-01-22T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6030.04,5000 - 7500
+2020-01-22T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2020-01-21T00:00:00Z,Earth Resources International Ltd.,Hong Kong,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,India,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,26.07,0 - 2500
+2020-01-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4167.49,2500 - 5000
+2020-01-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2592.11,2500 - 5000
+2020-01-20T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5617.58,5000 - 7500
+2020-01-20T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,710.36,0 - 2500
+2020-01-17T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2020-01-16T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11088,10000 - 12500
+2020-01-13T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,CONCENTRADOS ZINC,<4000t,133.8802,0 - 2500
+2020-01-11T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10500,10000 - 12500
+2020-01-10T00:00:00Z,Metal Trading,NA,Real De Dulces Nombres S.A.P.I. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,United States,Maritime,MINERAL DE ZINC.,<4000t,189.81,0 - 2500
+2020-01-02T00:00:00Z,Earth Resources International Ltd.,Hong Kong,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,India,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2019-12-31T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,487.24,0 - 2500
+2019-12-30T00:00:00Z,Earth Resources International Ltd.,Hong Kong,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,India,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,20.648,0 - 2500
+2019-12-26T00:00:00Z,Sul Oxidos Industria E Comercio Ltda,Brazil,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Brazil,Ensenada (MX),Mexico,Brazil,Maritime,CONCENTRADOS DE ZINC,<4000t,40,0 - 2500
+2019-12-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3124.02,2500 - 5000
+2019-12-23T00:00:00Z,Concord Resources Ltd.,United Kingdom,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,>7000t,11044.52,10000 - 12500
+2019-12-23T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,545.25,0 - 2500
+2019-12-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5381.286,5000 - 7500
+2019-12-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,196.577,0 - 2500
+2019-12-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,422.95,0 - 2500
+2019-12-20T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000.71,10000 - 12500
+2019-12-17T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-12-16T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,69.11,0 - 2500
+2019-12-14T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,488.3,0 - 2500
+2019-12-13T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5301.2,5000 - 7500
+2019-12-12T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2217.04,0 - 2500
+2019-12-12T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4338.93,2500 - 5000
+2019-12-07T00:00:00Z,Ocean Partners Usa Inc.,United States,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2019-12-07T00:00:00Z,Ocean Partners Usa Inc.,United States,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5678.25,5000 - 7500
+2019-12-07T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,610.21,0 - 2500
+2019-12-06T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2019-12-06T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.52,0 - 2500
+2019-12-04T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2019-12-03T00:00:00Z,Pemep Sac,Peru,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,20.507,0 - 2500
+2019-12-02T00:00:00Z,Pionner Metal Trading Llc,United States,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Turkey,Veracruz (MX),Mexico,United States,Maritime,CONCENTRADOS DE ZINC,<4000t,50.072,0 - 2500
+2019-12-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7680.01,7500 - 10000
+2019-12-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4328.6,2500 - 5000
+2019-12-02T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,608.81,0 - 2500
+2019-11-30T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5700,5000 - 7500
+2019-11-28T00:00:00Z,Glencore International Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Italy,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6601.64,5000 - 7500
+2019-11-28T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2019-11-27T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2019-11-27T00:00:00Z,Nyrstar Sales & Marketing Ag,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2019-11-25T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,20.507,0 - 2500
+2019-11-22T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11015.87,10000 - 12500
+2019-11-22T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,20.507,0 - 2500
+2019-11-21T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-11-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7457.38,5000 - 7500
+2019-11-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7361.23,5000 - 7500
+2019-11-20T00:00:00Z,Ocean Partners Usa Inc.,United States,Operaciones San Jose De Plata S. De R.L. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,2189.77,0 - 2500
+2019-11-15T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1098.83,0 - 2500
+2019-11-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,235.1766,0 - 2500
+2019-11-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,325.2585,0 - 2500
+2019-11-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,94.942,0 - 2500
+2019-11-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,175.763,0 - 2500
+2019-11-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,First Majestic Resources Mexicosa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,294.04290000000003,0 - 2500
+2019-11-15T00:00:00Z,Ocean Partners Usa Inc.,United States,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,16632.08,12500 and up
+2019-11-15T00:00:00Z,Pemep Sac,Peru,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,22.72,0 - 2500
+2019-11-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,535.71,0 - 2500
+2019-11-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,288.76,0 - 2500
+2019-11-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,425.97,0 - 2500
+2019-11-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Minera Mexicana El Rosario Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,425.79,0 - 2500
+2019-11-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4162.327,2500 - 5000
+2019-11-14T00:00:00Z,Traxys Europe S.A.,Luxembourg,Z Inc. International S.A.,Mexico,Mexico,Russia,Altamira (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE ZINC,<4000t,513.11145,0 - 2500
+2019-11-13T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,711.61,0 - 2500
+2019-11-12T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4477.71,2500 - 5000
+2019-11-11T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7113.29,5000 - 7500
+2019-11-11T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2019-11-04T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,709.78,0 - 2500
+2019-11-01T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5396.52,5000 - 7500
+2019-10-26T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,22,0 - 2500
+2019-10-25T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,53,0 - 2500
+2019-10-25T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,88.29,0 - 2500
+2019-10-25T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.025,0 - 2500
+2019-10-21T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5682.155,5000 - 7500
+2019-10-21T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2019-10-21T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,CONCENTRADOS ZINC,<4000t,146.31,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,47.311,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.518,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.345,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.969,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.953,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.974,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.995,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,55.047,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,55.063,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,56.235,0 - 2500
+2019-10-18T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.901,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.974,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.901,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.683,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,54.834,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.634,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.574,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.688,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.558,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.628,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.737,0 - 2500
+2019-10-17T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.59,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.47,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.53,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.677,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.607,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.519,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.519,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.568,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.732,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.612,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,57.372,0 - 2500
+2019-10-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,38.611,0 - 2500
+2019-10-14T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.1,0 - 2500
+2019-10-10T00:00:00Z,"Korea Z Inc. Co., Ltd.",South Korea,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,11099,10000 - 12500
+2019-10-10T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,MINERALES DE CINC,<4000t,20,0 - 2500
+2019-10-09T00:00:00Z,Traxys Europe S.A.,Luxembourg,Z Inc. International S.A.,Mexico,Mexico,Russia,Altamira (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE ZINC,<4000t,502.06,0 - 2500
+2019-10-08T00:00:00Z,Pemep Sac,NA,Non Ferrous De Norte America S.A. De C.V.,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2019-10-05T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5707.45,5000 - 7500
+2019-10-04T00:00:00Z,Cliveden Trading Ag,Switzerland,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5521.52,5000 - 7500
+2019-10-02T00:00:00Z,Concord Resources Ltd.,United Kingdom,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5504.61,5000 - 7500
+2019-10-01T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,751.64,0 - 2500
+2019-09-27T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,"MINERALES DE CINC, MINERALES DE CINC",<4000t,40,0 - 2500
+2019-09-24T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,405.49,0 - 2500
+2019-09-23T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,365.4,0 - 2500
+2019-09-17T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6947.1,5000 - 7500
+2019-09-17T00:00:00Z,Ningbo Honor Way Metal Material Co.,China,Linda Nayelly Dominguez Dominguez,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC,<4000t,89.53,0 - 2500
+2019-09-17T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,CONCENTRADOS ZINC,<4000t,95.846,0 - 2500
+2019-09-14T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-09-14T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12000,10000 - 12500
+2019-09-13T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,11298,10000 - 12500
+2019-09-11T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5700,5000 - 7500
+2019-08-30T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2019-08-29T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.66,0 - 2500
+2019-08-27T00:00:00Z,Ocean Partners Usa Inc.,United States,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5427.03,5000 - 7500
+2019-08-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5043.19,5000 - 7500
+2019-08-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6300,5000 - 7500
+2019-08-26T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,896.01,0 - 2500
+2019-08-22T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.4,0 - 2500
+2019-08-22T00:00:00Z,Mcc Non Ferrous Trading Inc.,United States,Z Inc. International S.A.,Mexico,Mexico,Brazil,Altamira (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,101.04,0 - 2500
+2019-08-21T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-08-16T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,17600,12500 and up
+2019-08-14T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5883.59,5000 - 7500
+2019-08-13T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11500,10000 - 12500
+2019-08-12T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12000,10000 - 12500
+2019-08-12T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,"MATERIA PRIMA DE ZINC, CONCENTRADOS ZINC",<4000t,86.836,0 - 2500
+2019-08-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8072.46,7500 - 10000
+2019-08-07T00:00:00Z,"Qingdao Explore International Trade Co., Ltd.",China,Linda Nayelly Dominguez Dominguez,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC,<4000t,24.64,0 - 2500
+2019-08-07T00:00:00Z,"Qingdao Explore International Trade Co., Ltd.",China,Linda Nayelly Dominguez Dominguez,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC,<4000t,21.64,0 - 2500
+2019-08-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE CINC,<4000t,2625.6,2500 - 5000
+2019-07-31T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12000,10000 - 12500
+2019-07-26T00:00:00Z,Traxys Europe S.A.,Luxembourg,Z Inc. International S.A.,Mexico,Mexico,Poland,Altamira (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE ZINC,<4000t,510.47366999999997,0 - 2500
+2019-07-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12000,10000 - 12500
+2019-07-18T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,8813.701,7500 - 10000
+2019-07-18T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,50.072,0 - 2500
+2019-07-17T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,TIERRA FINA DE ZINC,<4000t,20,0 - 2500
+2019-07-17T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,915.353,0 - 2500
+2019-07-16T00:00:00Z,Ocean Partners Usa Inc.,United States,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5584.67,5000 - 7500
+2019-07-15T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.5,0 - 2500
+2019-07-12T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,26.406,0 - 2500
+2019-07-12T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.71,0 - 2500
+2019-07-11T00:00:00Z,"Grand Tai Merchant (Shanghai) Co., Ltd.",China,Linda Nayelly Dominguez Dominguez,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC,<4000t,92.92,0 - 2500
+2019-07-10T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8800,7500 - 10000
+2019-07-10T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,510.85,0 - 2500
+2019-07-08T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,171.98,0 - 2500
+2019-07-08T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,598.14,0 - 2500
+2019-07-05T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4337.71,2500 - 5000
+2019-07-05T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,168.77,0 - 2500
+2019-07-05T00:00:00Z,Traxys Europe S.A.,Luxembourg,Z Inc. International S.A.,Mexico,Mexico,Russia,Altamira (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE ZINC,<4000t,525.20424,0 - 2500
+2019-07-04T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,114.21,0 - 2500
+2019-07-04T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5700,5000 - 7500
+2019-07-02T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,507.53,0 - 2500
+2019-06-29T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11922.09,10000 - 12500
+2019-06-25T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-06-24T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,509.76,0 - 2500
+2019-06-24T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.94,0 - 2500
+2019-06-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10795.9,10000 - 12500
+2019-06-20T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,8980.914,7500 - 10000
+2019-06-20T00:00:00Z,Pemep Sac,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,50.072,0 - 2500
+2019-06-18T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6884.22,5000 - 7500
+2019-06-18T00:00:00Z,Young Poong Corporation,South Korea,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,>7000t,10857.21,10000 - 12500
+2019-06-17T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Peru,Cardenas (MX),Mexico,United States,Maritime,CONCENTRADOS DE ZINC,<4000t,21.7978,0 - 2500
+2019-06-15T00:00:00Z,Youngpoong Corporation,South Korea,Z Inc. International S.A.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,509.22,0 - 2500
+2019-06-14T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5714.49,5000 - 7500
+2019-06-13T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,50.512,0 - 2500
+2019-06-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,22.99,0 - 2500
+2019-05-23T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,50.673,0 - 2500
+2019-05-23T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,24.31,0 - 2500
+2019-05-22T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11827.48,10000 - 12500
+2019-05-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,8.79871,0 - 2500
+2019-05-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1349.83,0 - 2500
+2019-05-17T00:00:00Z,"Grand Tai Merchant (Shanghai) Co., Ltd.",China,Linda Nayelly Dominguez Dominguez,Mexico,Mexico,China,Cardenas (MX),Mexico,China,Maritime,MINERAL DE ZINC.,<4000t,95.78,0 - 2500
+2019-05-16T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-05-16T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,POLVOS CONCENTRADOS DE ZINC,<4000t,20,0 - 2500
+2019-05-16T00:00:00Z,Traxys Europe Sa,Luxembourg,Z Inc. International S.A.,Mexico,Mexico,Russia,Altamira (MX),Mexico,Luxembourg,Maritime,"CONCENTRADO DE ZINC, CONCENTRADO DE ZINC",<4000t,504.99920000000003,0 - 2500
+2019-05-15T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.45,0 - 2500
+2019-05-09T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2019-05-06T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,22.99,0 - 2500
+2019-05-04T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5700,5000 - 7500
+2019-05-03T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,7434.48,5000 - 7500
+2019-04-30T00:00:00Z,Ocean Partners Us Inc.,United States,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6933.13,5000 - 7500
+2019-04-25T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.62,0 - 2500
+2019-04-25T00:00:00Z,Empresa Comercializadora Y Distribuidora Geominera,NA,Rottemberg De Mexico Sa De Cv,Mexico,Mexico,Cuba,Altamira (MX),Mexico,Cuba,Maritime,POLVO DE ZINC,<4000t,22.38,0 - 2500
+2019-04-23T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2019-04-22T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10866.19,10000 - 12500
+2019-04-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10088.492,10000 - 12500
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2511.07,2500 - 5000
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1318.69,0 - 2500
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2917.17,2500 - 5000
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2405.85,0 - 2500
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,237.37,0 - 2500
+2019-04-17T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1273.11,0 - 2500
+2019-04-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,483.89,0 - 2500
+2019-04-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5080.2,5000 - 7500
+2019-04-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7462.46,5000 - 7500
+2019-04-16T00:00:00Z,"Guangxi Jinruide Trading Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE ZINC.,<4000t,34.12,0 - 2500
+2019-04-10T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,20.44,0 - 2500
+2019-04-06T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5807.45,5000 - 7500
+2019-04-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2019-04-01T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10014.39,10000 - 12500
+2019-03-30T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4966,2500 - 5000
+2019-03-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3500,2500 - 5000
+2019-03-28T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,21.485,0 - 2500
+2019-03-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9400,7500 - 10000
+2019-03-25T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,20.507,0 - 2500
+2019-03-23T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,Indonesia,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,716.82,0 - 2500
+2019-03-21T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,7206.92,5000 - 7500
+2019-03-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2019-03-15T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-03-15T00:00:00Z,"Henan Great Sources Co., Ltd.",China,Minerales Y Agregados Del Pacifico S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE ZINC,<4000t,56.065,0 - 2500
+2019-03-14T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,11451.68,10000 - 12500
+2019-03-14T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-03-14T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-03-13T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9995.08,7500 - 10000
+2019-03-12T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5781.18,5000 - 7500
+2019-03-11T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5764.18,5000 - 7500
+2019-03-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.33,0 - 2500
+2019-03-04T00:00:00Z,Ocean Partners Us Inc.,United States,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,11173.02,10000 - 12500
+2019-02-28T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,102.021,0 - 2500
+2019-02-27T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.118,0 - 2500
+2019-02-25T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3414.106,2500 - 5000
+2019-02-22T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-02-22T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8800,7500 - 10000
+2019-02-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6920.13,5000 - 7500
+2019-02-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3708.73,2500 - 5000
+2019-02-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10172.519,10000 - 12500
+2019-02-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,23.06,0 - 2500
+2019-02-21T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6446.638,5000 - 7500
+2019-02-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.27,0 - 2500
+2019-02-20T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-02-20T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2019-02-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,"CONCENTRADO DE CINC, CONCENTRADO DE CINC",<4000t,45.69,0 - 2500
+2019-02-19T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2019-02-18T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,24.806,0 - 2500
+2019-02-16T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5984.09,5000 - 7500
+2019-02-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,50.66,0 - 2500
+2019-02-12T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10169.45,10000 - 12500
+2019-02-01T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,23.06,0 - 2500
+2019-01-30T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,14783,12500 and up
+2019-01-30T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,7000,5000 - 7500
+2019-01-24T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2019-01-22T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2019-01-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,41.105,0 - 2500
+2019-01-10T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10654.442,10000 - 12500
+2019-01-09T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,United Kingdom,Maritime,CONCENTRADO DE ZINC,<4000t,140.4,0 - 2500
+2019-01-05T00:00:00Z,Ocean Partners Usa Inc.,United States,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2019-01-02T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.185,0 - 2500
+2018-12-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4000,2500 - 5000
+2018-12-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5000,2500 - 5000
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,34.63,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,40.68,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,35.11,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,40.07,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,38.69,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,38.64,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,38.77,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,33.35,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,35.41,0 - 2500
+2018-12-28T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,38.34,0 - 2500
+2018-12-27T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,<4000t,2161.83,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,43.023,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,44.589,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,44.393,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,43.002,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,43.915,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,43.48,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,47.165,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,46.339,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,44.621,0 - 2500
+2018-12-27T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Unknown,Maritime,CONCENTRADO DE ZINC,<4000t,41.817,0 - 2500
+2018-12-26T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,<4000t,3538.17,2500 - 5000
+2018-12-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,22.758,0 - 2500
+2018-12-21T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Italy,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE CINC,4000t - 7000t,5500,5000 - 7500
+2018-12-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.34,0 - 2500
+2018-12-18T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9000,7500 - 10000
+2018-12-17T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2018-12-15T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2018-12-13T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2974.52,2500 - 5000
+2018-12-13T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5471.693,5000 - 7500
+2018-12-12T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2731.9,2500 - 5000
+2018-12-12T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5991.388,5000 - 7500
+2018-12-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,23.06,0 - 2500
+2018-12-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.06,0 - 2500
+2018-12-07T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,50.06,0 - 2500
+2018-12-04T00:00:00Z,"Henan Great Sources Co., Ltd.",China,Minerales Y Agregados Del Pacifico S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERAL DE CINC.,<4000t,27.25,0 - 2500
+2018-11-29T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,657.34,0 - 2500
+2018-11-29T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,656.82,0 - 2500
+2018-11-28T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2018-11-28T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-11-26T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-11-26T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE CINC,>7000t,13200,12500 and up
+2018-11-26T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,793.445,0 - 2500
+2018-11-17T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5895.95,5000 - 7500
+2018-11-16T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2018-11-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2018-11-14T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,833.33,0 - 2500
+2018-11-14T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,810.58,0 - 2500
+2018-11-09T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,328.27,0 - 2500
+2018-11-09T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,504.115,0 - 2500
+2018-11-07T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-11-05T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.845,0 - 2500
+2018-11-05T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.523,0 - 2500
+2018-11-05T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-11-03T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,832.815,0 - 2500
+2018-11-01T00:00:00Z,"Guangzhou Sheng Yu Logistics Service Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,POLVO DE CINC,<4000t,35.28,0 - 2500
+2018-10-31T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,810.49,0 - 2500
+2018-10-30T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13317.72,12500 and up
+2018-10-30T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2018-10-30T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.06,0 - 2500
+2018-10-27T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,833.975,0 - 2500
+2018-10-27T00:00:00Z,Cliveden Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,976.506,0 - 2500
+2018-10-26T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2018-10-25T00:00:00Z,"Qingdao Explore International Trade Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,63.95,0 - 2500
+2018-10-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,1397.994,0 - 2500
+2018-10-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3115.234,2500 - 5000
+2018-10-22T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10700,10000 - 12500
+2018-10-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.054,0 - 2500
+2018-10-19T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,7259.243,5000 - 7500
+2018-10-19T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,2511.49,2500 - 5000
+2018-10-15T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8398.23,7500 - 10000
+2018-10-15T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10183.304,10000 - 12500
+2018-10-15T00:00:00Z,"Guangzhou Sheng Yu Logistics Service Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,43.04,0 - 2500
+2018-10-11T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,247.49,0 - 2500
+2018-10-11T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4228.93,2500 - 5000
+2018-10-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,97.38,0 - 2500
+2018-10-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2977.61,2500 - 5000
+2018-10-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3756.24,2500 - 5000
+2018-10-08T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2018-10-08T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,44.51,0 - 2500
+2018-10-06T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.52,0 - 2500
+2018-10-03T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5800,5000 - 7500
+2018-09-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,14000,12500 and up
+2018-09-28T00:00:00Z,"Guangxi Jinruide Trading Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE ZINC,<4000t,56.13,0 - 2500
+2018-09-24T00:00:00Z,"Qingdao Easea International Logistics Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,67.53,0 - 2500
+2018-09-21T00:00:00Z,"Qingdao Explore International Trade Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,34.73,0 - 2500
+2018-09-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.06,0 - 2500
+2018-09-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-09-18T00:00:00Z,Mario Idarraga Importaciones Sas,NA,Metales Y Derivados De Z Inc. Sa De Cv,Mexico,Mexico,Colombia,Manzanillo (MX),Mexico,Colombia,Maritime,ZINC,<4000t,20,0 - 2500
+2018-09-17T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,825.777,0 - 2500
+2018-09-14T00:00:00Z,"Guangxi Jinruide Trading Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,39.445,0 - 2500
+2018-09-13T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.637,0 - 2500
+2018-09-12T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3000,2500 - 5000
+2018-09-12T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-09-11T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,3841.48,2500 - 5000
+2018-09-10T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3956.82,2500 - 5000
+2018-09-10T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,20.178,0 - 2500
+2018-09-06T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5846.91,5000 - 7500
+2018-09-05T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10147.382,10000 - 12500
+2018-09-01T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-08-30T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-08-29T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1500.005,0 - 2500
+2018-08-25T00:00:00Z,Ekmekciogullari Metal Ve Kimya San.Tic.As.,NA,"Regioz Inc., S.A. De C.V.",Mexico,Mexico,Turkey,Altamira (MX),Mexico,Turkey,Maritime,ZINC CONCENTRATE,<4000t,19.366,0 - 2500
+2018-08-18T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5728.25,5000 - 7500
+2018-08-16T00:00:00Z,"Chenzhou Dongbo Mining Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,82.16,0 - 2500
+2018-08-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,44.804,0 - 2500
+2018-08-14T00:00:00Z,"Shannxi Hanmo Non Ferrous Metals Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,97.49,0 - 2500
+2018-08-13T00:00:00Z,"Chenzhou Dongbo Mining Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,87.57,0 - 2500
+2018-08-06T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,50.072,0 - 2500
+2018-08-02T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-07-31T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.12,0 - 2500
+2018-07-26T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,11194.69,10000 - 12500
+2018-07-21T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,506.08,0 - 2500
+2018-07-20T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,14800,12500 and up
+2018-07-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2018-07-18T00:00:00Z,"Chenzhou Dongbo Mining Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,103.985,0 - 2500
+2018-07-13T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.27,0 - 2500
+2018-07-10T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5559.732,5000 - 7500
+2018-07-10T00:00:00Z,Ocean Partners Usa Inc.,United States,Cia Minera Mexicana De Avino Sa Cv,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,269.51,0 - 2500
+2018-07-10T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,3433.71,2500 - 5000
+2018-07-09T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.095,0 - 2500
+2018-07-05T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.65,0 - 2500
+2018-07-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,136.623,0 - 2500
+2018-07-03T00:00:00Z,"Qingdao Easea International Logistics Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,89.42,0 - 2500
+2018-07-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,636.34,0 - 2500
+2018-07-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3340.82,2500 - 5000
+2018-07-02T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,68.085,0 - 2500
+2018-06-30T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3289.1,2500 - 5000
+2018-06-30T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3839.49,2500 - 5000
+2018-06-30T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1190,0 - 2500
+2018-06-30T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3710,2500 - 5000
+2018-06-29T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4941.52,2500 - 5000
+2018-06-28T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2196.91,0 - 2500
+2018-06-28T00:00:00Z,"Henan Great Sources Co., Ltd.",China,Minerales Y Agregados Del Pacifico S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE ZINC,<4000t,144.91,0 - 2500
+2018-06-28T00:00:00Z,Anglo Europe Minerals Ltd.,United Kingdom,Faeza Alloyers S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United Kingdom,Maritime,"CONCENTRADO DE ZINC, CONCENTRADO DE ZINC",<4000t,397.3,0 - 2500
+2018-06-27T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5791,5000 - 7500
+2018-06-27T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.095,0 - 2500
+2018-06-26T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7150,5000 - 7500
+2018-06-25T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9717.51,7500 - 10000
+2018-06-21T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,1936.095,0 - 2500
+2018-06-20T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1500,0 - 2500
+2018-06-20T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10188.82,10000 - 12500
+2018-06-19T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9500,7500 - 10000
+2018-06-19T00:00:00Z,"Chenzhou Dongbo Mining Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,109.05,0 - 2500
+2018-06-18T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.915,0 - 2500
+2018-06-18T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-06-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.23,0 - 2500
+2018-06-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.95,0 - 2500
+2018-06-12T00:00:00Z,"Qingdao Easea International Logistics Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,130.36,0 - 2500
+2018-06-11T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2744.317,2500 - 5000
+2018-06-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,67.935,0 - 2500
+2018-06-08T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,7201.2,5000 - 7500
+2018-06-05T00:00:00Z,"Qingdao Easea International Logistics Co., Ltd.",NA,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC Y SUS CONCENTRADOS,<4000t,254.08,0 - 2500
+2018-06-02T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-05-31T00:00:00Z,"Himgiri Metals Pvt., Ltd.",India,Compania De No Ferrosos De Mexico,Mexico,Mexico,India,Veracruz (MX),Mexico,India,Maritime,CONCENTRADOS DE ZINC,<4000t,22.715,0 - 2500
+2018-05-31T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10037.82,10000 - 12500
+2018-05-30T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5700,5000 - 7500
+2018-05-26T00:00:00Z,Glencore International Ag,Switzerland,Coymet Sa De Cv,Mexico,Mexico,Switzerland,Altamira (MX),Mexico,Switzerland,Maritime,ZINC CALAMINE,<4000t,103.586,0 - 2500
+2018-05-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-05-17T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10161.56,10000 - 12500
+2018-05-17T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-05-10T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4111.81,2500 - 5000
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4920.18,2500 - 5000
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,629.03,0 - 2500
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,797.48,0 - 2500
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,100.64,0 - 2500
+2018-05-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,141.17,0 - 2500
+2018-04-30T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,27.18,0 - 2500
+2018-04-28T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2018-04-27T00:00:00Z,Sumitomo Corporation,Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2018-04-26T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,15000,12500 and up
+2018-04-26T00:00:00Z,Mester Global Resources Ltd.,United Kingdom,Minas Canmex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,United Kingdom,Maritime,MINERAL DE CINC,<4000t,92.47,0 - 2500
+2018-04-26T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC.,<4000t,3652.665,2500 - 5000
+2018-04-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,9950.22,7500 - 10000
+2018-04-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10251.022,10000 - 12500
+2018-04-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5948.738,5000 - 7500
+2018-04-24T00:00:00Z,Ocean Partners Usa Inc.,United States,Cia Minera Mexicana De Avino Sa Cv,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,17.358,0 - 2500
+2018-04-24T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,1144.41,0 - 2500
+2018-04-24T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4607.42,2500 - 5000
+2018-04-19T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2018-04-18T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-04-12T00:00:00Z,Metal Trading Worldwide Llc,United States,Real De Dulces Nombres S.A.P.I. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,United States,Maritime,MINERAL DE CINC,<4000t,103.62,0 - 2500
+2018-04-12T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,26.446,0 - 2500
+2018-04-10T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.68,0 - 2500
+2018-04-10T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,27.606,0 - 2500
+2018-04-06T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5837.9,5000 - 7500
+2018-04-05T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,2119.82,0 - 2500
+2018-04-05T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.06,0 - 2500
+2018-03-24T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,14300,12500 and up
+2018-03-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6742.48,5000 - 7500
+2018-03-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5021.22,5000 - 7500
+2018-03-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,8550.02,7500 - 10000
+2018-03-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5072.28,5000 - 7500
+2018-03-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.22,0 - 2500
+2018-03-17T00:00:00Z,H&H Metals Corp,United States,Ewr S.A. De C.V,Mexico,Mexico,Japan,Altamira (MX),Mexico,United States,Maritime,CONCENTRADOS ZINC,<4000t,129.118,0 - 2500
+2018-03-15T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13186,12500 and up
+2018-03-15T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,25.036,0 - 2500
+2018-03-15T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,50.45,0 - 2500
+2018-03-12T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-03-09T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,24.45,0 - 2500
+2018-03-01T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-02-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-02-26T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2018-02-24T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5800,5000 - 7500
+2018-02-24T00:00:00Z,"Guangxi Jinruide Trading Co., Ltd.",China,Asia Global Renewabe Resourses Sa,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,MINERALES DE CINC,<4000t,39.56,0 - 2500
+2018-02-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,50.77,0 - 2500
+2018-02-20T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1355.07,0 - 2500
+2018-02-19T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8703.4,7500 - 10000
+2018-02-16T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2018-02-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2018-02-15T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4593.81,2500 - 5000
+2018-02-15T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,801.72,0 - 2500
+2018-02-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,89.969,0 - 2500
+2018-02-13T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5774.46,5000 - 7500
+2018-02-13T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,349.14,0 - 2500
+2018-02-13T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,298.72,0 - 2500
+2018-02-09T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5983.44,5000 - 7500
+2018-02-08T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7954.1,7500 - 10000
+2018-02-08T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.115,0 - 2500
+2018-02-08T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.406,0 - 2500
+2018-02-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,472.91,0 - 2500
+2018-02-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1491.36,0 - 2500
+2018-02-03T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,465.757,0 - 2500
+2018-02-01T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5798.53,5000 - 7500
+2018-01-31T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5123.07,5000 - 7500
+2018-01-30T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5853.41,5000 - 7500
+2018-01-30T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,7439.15,5000 - 7500
+2018-01-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13000,12500 and up
+2018-01-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13000,12500 and up
+2018-01-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10128.09,10000 - 12500
+2018-01-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10438.61,10000 - 12500
+2018-01-23T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.793,0 - 2500
+2018-01-12T00:00:00Z,Mester Global Resources Ltd.,United Kingdom,Noga Logistic Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,United Kingdom,Maritime,MINERAL DE ZINC,<4000t,148.695,0 - 2500
+2018-01-11T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,835.19,0 - 2500
+2018-01-11T00:00:00Z,Metco Suisse Gmb H,Switzerland,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADOS DE ZINC,<4000t,236.1,0 - 2500
+2018-01-08T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2410.47,0 - 2500
+2018-01-02T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2017-12-29T00:00:00Z,Cliveden Trading Ag,NA,Metco Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,306.235,0 - 2500
+2017-12-28T00:00:00Z,Metco Suisse Gmb H,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,South Korea,Maritime,CONCENTRADO DE ZINC,<4000t,1999.49,0 - 2500
+2017-12-21T00:00:00Z,Sun Metal Corporation (Pty) Ltd.,Australia,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,7830,7500 - 10000
+2017-12-20T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.03,0 - 2500
+2017-12-19T00:00:00Z,Sun Metal Corporation (Pty) Ltd.,Australia,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2017-12-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,45.335,0 - 2500
+2017-12-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,22.255,0 - 2500
+2017-12-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.26,0 - 2500
+2017-12-06T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3228.42,2500 - 5000
+2017-12-01T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10500,10000 - 12500
+2017-11-30T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,2436.07,0 - 2500
+2017-11-28T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5612.58,5000 - 7500
+2017-11-28T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,26.91,0 - 2500
+2017-11-27T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3712.48,2500 - 5000
+2017-11-25T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2017-11-22T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12500,10000 - 12500
+2017-11-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23,0 - 2500
+2017-11-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.42,0 - 2500
+2017-11-17T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5013.33,5000 - 7500
+2017-11-15T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,604.42,0 - 2500
+2017-11-15T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,832.005,0 - 2500
+2017-11-15T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,1678.635,0 - 2500
+2017-11-14T00:00:00Z,"Z.K. Trading Co., Ltd.",Marshall Islands,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,Marshall Islands,Maritime,CONCENTRADO DE CINC,<4000t,198.156,0 - 2500
+2017-11-09T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2017-11-07T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,11151.98,10000 - 12500
+2017-11-07T00:00:00Z,"Shenzhen Juwoneng Industrial Co., Ltd.",China,Minerales Y Agregados Del Pacifico S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,135.63,0 - 2500
+2017-11-06T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,475.95,0 - 2500
+2017-11-06T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,520.19,0 - 2500
+2017-11-04T00:00:00Z,Goldcorp Trading Gmb H,NA,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4000,2500 - 5000
+2017-11-03T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10714.93,10000 - 12500
+2017-11-03T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10919.59,10000 - 12500
+2017-11-03T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,10000,7500 - 10000
+2017-11-03T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,22.682,0 - 2500
+2017-11-03T00:00:00Z,Glencore International Ag,Switzerland,Coymet Sa De Cv,Mexico,Mexico,Switzerland,Altamira (MX),Mexico,Switzerland,Maritime,ZINC CALAMINE,<4000t,84.098,0 - 2500
+2017-10-31T00:00:00Z,Earth Resources International Ltd.,NA,Compania De No Ferrosos De Mexico,Mexico,Mexico,India,Ensenada (MX),Mexico,Hong Kong,Maritime,MATAS DE GALVANIZADO (ZINC DROSS),<4000t,23.155,0 - 2500
+2017-10-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5500,5000 - 7500
+2017-10-26T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,9007.75,7500 - 10000
+2017-10-25T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2017-10-24T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13000,12500 and up
+2017-10-18T00:00:00Z,Ocean Partners Usa Inc.,United States,Cia Minera Mexicana De Avino Sa Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCETRADO DE ZINC,<4000t,133.787,0 - 2500
+2017-10-18T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,1019.728,0 - 2500
+2017-10-06T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5481.41,5000 - 7500
+2017-10-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2017-10-02T00:00:00Z,Hamburg Metals Inc.,Panama,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Panama,Maritime,TORTAS DE ZINC,<4000t,997.87,0 - 2500
+2017-09-29T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23,0 - 2500
+2017-09-27T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6000,5000 - 7500
+2017-09-26T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,26.91,0 - 2500
+2017-09-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6500,5000 - 7500
+2017-09-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6500,5000 - 7500
+2017-09-20T00:00:00Z,Glencore International Ag,Switzerland,Coymet Sa De Cv,Mexico,Mexico,Switzerland,Altamira (MX),Mexico,Switzerland,Maritime,ZINC CALAMINE,<4000t,100.874,0 - 2500
+2017-09-18T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,0.05012,0 - 2500
+2017-09-15T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,13000,12500 and up
+2017-09-15T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,44.35,0 - 2500
+2017-09-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,45.845,0 - 2500
+2017-09-14T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2017-09-11T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23,0 - 2500
+2017-09-05T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6060.5,5000 - 7500
+2017-09-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2017-08-31T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Poland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,1988.7,0 - 2500
+2017-08-29T00:00:00Z,Mk Metal Trading Mexico Sa De Cv,NA,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,2800,2500 - 5000
+2017-08-29T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,8200,7500 - 10000
+2017-08-28T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5502.52,5000 - 7500
+2017-08-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,15499.592,12500 and up
+2017-08-24T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-08-21T00:00:00Z,Global Eagle International Investment Ltd.,Hong Kong,Ars Metallibus Mexico S.A. De C.V.,Mexico,Mexico,Hong Kong,Manzanillo (MX),Mexico,Hong Kong,Maritime,CONCENTRADO DE ZINC,<4000t,298.21,0 - 2500
+2017-08-21T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.39,0 - 2500
+2017-08-18T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,23.06,0 - 2500
+2017-08-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE CINC,<4000t,22.51,0 - 2500
+2017-08-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,26.796,0 - 2500
+2017-08-15T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-08-14T00:00:00Z,Global Eagle International Investment Ltd.,Hong Kong,Matfi S.A. De C.V.,Mexico,Mexico,Hong Kong,Manzanillo (MX),Mexico,Hong Kong,Maritime,ZINC,<4000t,89.601,0 - 2500
+2017-08-05T00:00:00Z,Metco Trading Sac,Peru,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,243.453,0 - 2500
+2017-08-04T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-08-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1419.54,0 - 2500
+2017-08-02T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,8632.14,7500 - 10000
+2017-07-31T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,15000,12500 and up
+2017-07-25T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5430,5000 - 7500
+2017-07-25T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4975.06,2500 - 5000
+2017-07-24T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6007.4,5000 - 7500
+2017-07-20T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Italy,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4300,2500 - 5000
+2017-07-18T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10047.43,10000 - 12500
+2017-07-17T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,22.585,0 - 2500
+2017-07-07T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,21.17,0 - 2500
+2017-06-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1960,0 - 2500
+2017-06-27T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4000,2500 - 5000
+2017-06-26T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6008.72,5000 - 7500
+2017-06-26T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.036,0 - 2500
+2017-06-23T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1180.53,0 - 2500
+2017-06-23T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,555.82,0 - 2500
+2017-06-23T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4427.62,2500 - 5000
+2017-06-23T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,4823.33,2500 - 5000
+2017-06-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-06-22T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,21.102,0 - 2500
+2017-06-19T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.195,0 - 2500
+2017-06-17T00:00:00Z,"Prime Metal Resource Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,98.97,0 - 2500
+2017-06-16T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Poland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC,<4000t,1899.995,0 - 2500
+2017-06-16T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2369.705,0 - 2500
+2017-06-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,25.036,0 - 2500
+2017-06-15T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-06-10T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5456.73,5000 - 7500
+2017-06-09T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2732.52,2500 - 5000
+2017-06-09T00:00:00Z,Glencore International Ag,Switzerland,Coymet Sa De Cv,Mexico,Mexico,Switzerland,Altamira (MX),Mexico,Switzerland,Maritime,CALAMINA DE ZINC,<4000t,81.57,0 - 2500
+2017-06-08T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,44.51,0 - 2500
+2017-06-05T00:00:00Z,"Prime Metal Resource Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,107.3445,0 - 2500
+2017-05-29T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.036,0 - 2500
+2017-05-26T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,12607.77,12500 and up
+2017-05-26T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADOS DE ZINC,>7000t,16000,12500 and up
+2017-05-26T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6132.99,5000 - 7500
+2017-05-16T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-05-12T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.036,0 - 2500
+2017-05-08T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Ensenada (MX),Mexico,Peru,Maritime,COCENTRADOS DE ZINC,<4000t,24.78,0 - 2500
+2017-05-04T00:00:00Z,"Shenzhen Juwoneng Industrial Co., Ltd.",China,Minerales Y Agregados Del Pacifico S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,34.84,0 - 2500
+2017-05-04T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.036,0 - 2500
+2017-05-02T00:00:00Z,"Prime Metal Resource Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,460.67,0 - 2500
+2017-04-29T00:00:00Z,Antwerp Bulk Terminal Nv,NA,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,3375,2500 - 5000
+2017-04-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5625,5000 - 7500
+2017-04-27T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,3318.94,2500 - 5000
+2017-04-27T00:00:00Z,Ocean Partners Usa Inc.,United States,Cia Minera Mexicana De Avino Sa Cv,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,190.01,0 - 2500
+2017-04-24T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,7900.66,7500 - 10000
+2017-04-21T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Italy,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5500,5000 - 7500
+2017-04-21T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6007.95,5000 - 7500
+2017-04-20T00:00:00Z,Metco Trading Sac,NA,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,234.33,0 - 2500
+2017-04-13T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,2000,0 - 2500
+2017-04-12T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,16000,12500 and up
+2017-04-12T00:00:00Z,Ocean Partners Usa Inc.,United States,Mk Metal Trading Mexico S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5446.57,5000 - 7500
+2017-04-12T00:00:00Z,Ocean Partners Usa Inc.,United States,Cia Minera Mexicana De Avino Sa Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,602.23,0 - 2500
+2017-04-10T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,34.97,0 - 2500
+2017-04-10T00:00:00Z,Mri Trading Ag,Switzerland,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5515.3,5000 - 7500
+2017-04-07T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11063.58,10000 - 12500
+2017-04-07T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.32,0 - 2500
+2017-03-31T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,705.71,0 - 2500
+2017-03-31T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,24.036,0 - 2500
+2017-03-31T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,44.46,0 - 2500
+2017-03-30T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Metalurgica Met Mex PeÑoles S.A. De C.V.,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3720.01,2500 - 5000
+2017-03-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1000,0 - 2500
+2017-03-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Australia,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,15000,12500 and up
+2017-03-27T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6242.97,5000 - 7500
+2017-03-25T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5239.21,5000 - 7500
+2017-03-24T00:00:00Z,H&H Metals Corp,United States,Omega Aleaciones Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,<4000t,100.485,0 - 2500
+2017-03-23T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,China,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,1514.39,0 - 2500
+2017-03-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,11670.16,10000 - 12500
+2017-03-21T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6301.84,5000 - 7500
+2017-03-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,539.12,0 - 2500
+2017-03-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,9543.8,7500 - 10000
+2017-03-16T00:00:00Z,Glencore International Ag,Switzerland,Metagrisa De Cv,Mexico,Mexico,Germany,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,<4000t,1115.99,0 - 2500
+2017-03-16T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC.,4000t - 7000t,4948.24,2500 - 5000
+2017-03-16T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADO DE ZINC,<4000t,25.73,0 - 2500
+2017-03-13T00:00:00Z,"Prime Metal Resource Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,197.03,0 - 2500
+2017-03-13T00:00:00Z,Pemep Sac,Peru,Compania De No Ferrosos De Mexico,Mexico,Mexico,Peru,Cardenas (MX),Mexico,Peru,Maritime,CONCENTRADOS DE ZINC,<4000t,24.036,0 - 2500
+2017-03-10T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-03-02T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,3211.77,2500 - 5000
+2017-03-02T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,<4000t,2347.63,0 - 2500
+2017-02-28T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-02-25T00:00:00Z,Glencore International Ag,Switzerland,Coymet Sa De Cv,Mexico,Mexico,Switzerland,Altamira (MX),Mexico,Switzerland,Maritime,CALAMINA DE ZINC,<4000t,176.306,0 - 2500
+2017-02-22T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,8958.384,7500 - 10000
+2017-02-21T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11000,10000 - 12500
+2017-02-17T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5991.69,5000 - 7500
+2017-02-17T00:00:00Z,H&H Metals Corp,United States,Omega Aleaciones Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE CINC,<4000t,99.901,0 - 2500
+2017-02-14T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Poland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC.,<4000t,1900,0 - 2500
+2017-02-11T00:00:00Z,"Prime Metal Resource Co., Ltd.",China,Compania De No Ferrosos De Mexico,Mexico,Mexico,China,Manzanillo (MX),Mexico,China,Maritime,CONCENTRADO DE CINC,<4000t,178.245,0 - 2500
+2017-02-09T00:00:00Z,Traxys Europe S.A.,Luxembourg,Traxys Mexico S.A. De C.V.,Mexico,Mexico,Poland,Manzanillo (MX),Mexico,Luxembourg,Maritime,CONCENTRADO DE CINC.,<4000t,1898.995,0 - 2500
+2017-02-07T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Spain,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,11880,10000 - 12500
+2017-02-03T00:00:00Z,Ocean Partners Usa Inc.,United States,Comercializadora De Metales PeÑoles S.A. De C.V.,Mexico,Mexico,Canada,Manzanillo (MX),Mexico,United States,Maritime,CONCENTRADO DE ZINC,>7000t,10391.78,10000 - 12500
+2017-01-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5000,2500 - 5000
+2017-01-23T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,14000,12500 and up
+2017-01-23T00:00:00Z,Mercuria Energy Trading Sa,NA,Mercuria Commodities Trading S.A. De C.V.,Mexico,Mexico,Switzerland,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,5224.925,5000 - 7500
+2017-01-17T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,South Korea,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,9142.694,7500 - 10000
+2017-01-16T00:00:00Z,"Trafigura Pte., Ltd.",Singapore,Consorcio Minero De Mexico Cormin Mex Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Singapore,Maritime,CONCENTRADO DE ZINC,>7000t,10042.774,10000 - 12500
+2017-01-14T00:00:00Z,"Dowa Metals & Mining Co., Ltd.",Japan,Minera Tizapa Sa De Cv,Mexico,Mexico,Japan,Manzanillo (MX),Mexico,Japan,Maritime,CONCENTRADO DE ZINC,4000t - 7000t,6031.96,5000 - 7500
+2017-01-02T00:00:00Z,Goldcorp Trading Gmb H,Switzerland,Minera PeÑasquito S.A. De C.V.,Mexico,Mexico,Belgium,Manzanillo (MX),Mexico,Switzerland,Maritime,CONCENTRADO DE ZINC,>7000t,12000,10000 - 12500

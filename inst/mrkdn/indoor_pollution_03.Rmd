@@ -1,0 +1,349 @@
+---
+title: "Indoor Pollution"
+output: html_document
+date: "2022-09-14"
+---
+
+```{r setup, include=FALSE}
+
+options(scipen = 999)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+pacman::p_load(
+  dplyr
+  , skimr
+  , ggplot2
+  , stringr
+  , tidyr
+)
+
+```
+
+
+```{r}
+
+tuesdata <- tidytuesdayR::tt_load('2022-04-12')
+
+```
+
+
+
+```{r}
+
+fuel_gdp         <- tuesdata$fuel_gdp %>% janitor::clean_names()
+fuel_access      <- tuesdata$fuel_access %>% janitor::clean_names()
+death_timeseries <- tuesdata$death_timeseries %>% janitor::clean_names()
+death_source     <- tuesdata$death_source %>% janitor::clean_names()
+death_fuel       <- tuesdata$death_fuel %>% janitor::clean_names()
+indoor_pollution <- tuesdata$indoor_pollution %>% janitor::clean_names()
+
+```
+
+### fuel_gdp
+
+
+```{r}
+
+fuel_gdp_wip <- fuel_gdp %>% 
+  # filter(str_detect(entity, 'income$')) %>% 
+  rename(
+    access_pc       = access_to_clean_fuels_and_technologies_for_cooking_percent_of_population
+    , gdp           = gdp_per_capita_ppp_constant_2017_international	
+    , pop_estimates = population_historical_estimates
+    ) %>% 
+  filter(entity %in% c(
+    'High income'
+    , 'Upper middle income'
+    , 'Lower middle income'
+    , 'Low income'
+  ))
+
+fuel_gdp_wip
+
+```
+
+
+```{r}
+
+fuel_gdp_wip %>% 
+  select(entity) %>% 
+  distinct()
+
+```
+
+
+```{r}
+
+
+# fuel_gdp_wip %>% 
+#   mutate(entity = str_to_title(entity)) %>% 
+#   mutate(entity = factor(entity, levels = c(
+#     'High Income'
+#     , 'Upper Middle Income'
+#     , 'Lower Middle Income'
+#     , 'Low Income'
+#   ))) %>% 
+#   filter(
+#     year >= 2000
+#     , year <= 2017
+#   ) %>% 
+#   # mutate(entity = forcats::fct_reorder2(entity)) %>% 
+#   ggplot(aes(year, access_pc, color = entity)) +
+#   geom_line(show.legend = F) +
+#   facet_wrap(~entity, ncol = 1) +
+#   xlab(NULL)
+
+fuel_gdp_fks <- fuel_gdp_wip %>% 
+  mutate(entity = str_to_title(entity)) %>% 
+  mutate(entity = factor(entity, levels = c(
+    'High Income'
+    , 'Upper Middle Income'
+    , 'Lower Middle Income'
+    , 'Low Income'
+  ))) %>% 
+  filter(
+    year >= 2000
+    , year <= 2017
+  ) %>% 
+  select(entity, year, access_pc, gdp)
+
+
+fuel_gdp_fks %>% 
+  ggplot(aes(year, access_pc, color = entity)) +
+  geom_line(show.legend = F) +
+  facet_wrap(~entity, ncol = 1) +
+  xlab(NULL)
+
+```
+
+```{r}
+
+indoor_pollution %>% 
+  select(entity) %>% 
+  distinct()
+
+library(patchwork)
+library(ggthemes)
+library(grid)
+
+
+```
+
+
+```{r}
+	
+'High Income'
+'Upper Middle Income'
+'Lower Middle Income'
+'Low Income'
+
+
+plot_data_01 <- indoor_pollution %>% 
+  filter(entity %in% c(
+    'World Bank High Income'
+    , 'World Bank Low Income'	
+    , 'World Bank Lower Middle Income'	
+    , 'World Bank Upper Middle Income'
+  )) %>% 
+  rename(
+    deaths_all_pc = deaths_cause_all_causes_risk_household_air_pollution_from_solid_fuels_sex_both_age_age_standardized_percent
+  ) %>% 
+  mutate(entity = case_when(
+    entity == 'World Bank High Income'           ~ 'High Income'
+    , entity == 'World Bank Low Income'          ~ 'Upper Middle Income'
+    , entity == 'World Bank Lower Middle Income' ~ 'Lower Middle Income'
+    , entity == 'World Bank Upper Middle Income' ~ 'Low Income'
+  )) %>% 
+  select(-code) %>% 
+  inner_join(fuel_gdp_fks, by = c('entity', 'year')) %>% 
+  select(-gdp) %>% 
+  pivot_longer(3:4, names_to = 'item') %>% 
+  mutate(value = round(value, 3)) %>% 
+  mutate(entity = factor(entity, levels = c(
+    'High Income'
+    , 'Upper Middle Income'
+    , 'Lower Middle Income'
+    , 'Low Income'
+  ))) %>% 
+  filter(year < 2016)
+  
+
+plot_01 <- ggplot() +
+  geom_line(
+    aes(year, value)
+    , color = 'red'
+    , data = plot_data_01 %>% filter(item == 'access_pc')
+    ) +
+    # geom_point(
+    # aes(year, value,show.legend = T)
+    # , color = 'red'
+    # , data = plot_data_01 %>% filter(item == 'access_pc')
+    # ) +
+
+    geom_col(
+      aes(year, value)
+      , fill = 'blue'
+      , width = 0.3
+    , data = plot_data_01 %>% 
+      filter(
+        item == 'deaths_all_pc'
+        , year %in% c(2000, 2005, 2010, 2015)
+        )
+    ) +
+  geom_text(
+    aes(x = year, y= value, label = round(value, 1))
+    , vjust = -0.5
+    , size = 3
+    , data = plot_data_01 %>% 
+      filter(
+        item == 'deaths_all_pc'
+        , year %in% c(2000, 2005, 2010, 2015)
+        )
+    ) +
+  facet_wrap(~entity, ncol = 1, strip.position="right") +
+    theme_gray() +
+  labs(
+    # title = 'Percentages of Population'
+      
+    # , 
+    x = NULL
+    , y = NULL
+    # , caption = '\n\nShown across Income Brackets, 2000 - 2015'
+    # , caption = '\nThe red lines show the percentage of the population, across each income bracket, with access to \nclean fuels and technologies for cooking. The percentage of deaths, from all causes arising from the \nrisk of household air pollution from solid fuels (standardized), is shown in (blue) five year intervals.'
+  ) +
+  scale_y_continuous(breaks=c(0,50,100)) +
+  ggtitle(
+    label = 'Percentages of Population across Income Brackets between 2000 - 2015'
+    , subtitle = "with 1) Access to Clean Fuels & Technologies for Cooking and \n2) of deaths from causes arising from the risk of household air pollution from solid fuels"
+  )
+
+  
+
+```
+
+
+
+```{r}
+
+
+plot_02 <- plot_01 +
+  theme_economist() +
+  theme(
+    strip.text.y = element_text(angle = 0, size = 10)
+    , plot.title.position = 'panel'
+    , plot.title = element_text(size = 14   
+                                , hjust = 0.3
+                                )
+    , plot.subtitle = element_text(size = 13
+                                   , hjust = 0.3
+                                   )
+    , axis.text.y = element_text(size = 8)
+    , panel.spacing = unit(2, "lines")
+    # , plot.caption = element_text(
+    #   # color = "red"
+    #   # , 
+    #   face="italic", hjust = .2
+    #   )
+    , plot.margin = margin(0, 50, 0, 50, "pt")
+  )
+
+
+p_caption <- ggplot() +
+  # geom_blank() +
+  theme_economist() +
+  theme(
+    plot.caption =  element_text(hjust = 0, size = 8, margin = margin(0, 0, 0, 0, "pt")
+                                 )
+    , plot.margin = margin(0, 5.5, 5.5, 5.5, "pt")
+    ) +
+  labs(
+    caption = paste("\nData Source: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-04-12")
+    )
+
+plot_02 / p_caption + plot_layout(heights = c(40, 1))
+
+```
+
+
+```{r, fig.height=8}
+
+
+
+plot_03 <- ggplot() +
+  geom_line(
+    aes(year, value)
+    , color = 'red'
+    , data = plot_data_01 %>% filter(item == 'access_pc')
+    ) +
+    # geom_point(
+    # aes(year, value,show.legend = T)
+    # , color = 'red'
+    # , data = plot_data_01 %>% filter(item == 'access_pc')
+    # ) +
+
+    geom_col(
+      aes(year, value)
+      , fill = 'blue'
+      , width = 0.3
+    , data = plot_data_01 %>% 
+      filter(
+        item == 'deaths_all_pc'
+        , year %in% c(2000, 2005, 2010, 2015)
+        )
+    ) +
+  geom_text(
+    aes(x = year, y= value, label = round(value, 1))
+    , vjust = -0.5
+    , size = 3
+    , data = plot_data_01 %>% 
+      filter(
+        item == 'deaths_all_pc'
+        , year %in% c(2000, 2005, 2010, 2015)
+        )
+    ) +
+  facet_wrap(~entity, ncol = 1, strip.position="right") +
+    theme_gray() +
+  labs(
+    # title = 'Percentages of Population'
+      
+    # , 
+    x = NULL
+    , y = NULL
+    # , caption = '\n\nShown across Income Brackets, 2000 - 2015'
+    , caption = '\nThe red lines show the percentage of the population, across each income bracket, with access to \nclean fuels and technologies for cooking, between 2000-2015. The percentage of deaths, from all causes \narising from the risk of household air pollution from solid fuels (standardized), is \nshown in (blue) five year intervals.\n\n'
+    # , caption = 'dddddddddddddddddd'
+  ) +
+  scale_y_continuous(breaks=c(0,50,100)) +
+  ggtitle(
+    # label = 'Percentages of Population across Income Brackets between 2000 - 2015'
+    # , subtitle = "with 1) Access to Clean Fuels & Technologies for Cooking and \n2) of deaths from causes arising from the risk of household air pollution from solid fuels"
+    label = '\nAir Pollution Deaths Resulting from Access to \nClean Fuels & Technologies for Cooking, across Income Brackets\n\n'
+  )
+
+
+plot_03 +
+  theme_economist() +
+  theme(
+    strip.text.y = element_text(angle = 0, size = 16)
+    , plot.title.position = 'panel'
+    , plot.title = element_text(size = 20   
+                                # , hjust = 0.3
+                                )
+    , plot.subtitle = element_text(size = 13
+                                   , hjust = 0.3
+                                   )
+    , axis.text.y = element_text(size = 12)
+    , panel.spacing = unit(2, "lines")
+    , plot.caption = element_text(
+      # color = "red"
+      # ,
+      face="italic"
+      , hjust = .2
+      , size = 15
+      )
+    , plot.margin = margin(0, 50, 0, 50, "pt")
+  )
+
+```
+

@@ -1,0 +1,807 @@
+---
+author: ""
+pagetitle: "Geo EDA"
+date: '`r Sys.time()`'
+mainfont: DejaVu Sans
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    toc: true
+    toc_depth: 5
+    toc_float: true
+    number_sections: false
+    anchor_sections: FALSE
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "C:/nexus/biz/potential_biz/portfolio/charts/charts")
+
+
+```
+
+## Geo EDA
+### Geo-Based Exploratory Data Analyses
+
+```{r, include=F}
+
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(tidyquant)
+library(lubridate)
+library(sf)
+library(tmap)
+
+```
+
+
+```{r, results='hide', message=FALSE}
+
+# Model Data
+
+zinc_conc_model_data <- read_csv('outputs/zinc_conc_model_data.csv')
+
+```
+
+
+```{r}
+
+# Model Data - Subset to 'Trafigura Pte., Ltd.' and 'Glencore International Ag'
+
+zinc_conc_model_data_fks <- zinc_conc_model_data %>% 
+  filter(consignee %in% c(
+    'Trafigura Pte., Ltd.'
+    , 'Glencore International Ag'
+  )) 
+
+zinc_conc_model_data_fks %>% 
+  kableExtra::kbl() %>%
+  kableExtra::kable_material(c("striped", "hover")) %>%
+  kableExtra::scroll_box(width = "100%", height = "400px")
+
+
+```
+
+
+
+#### GEO data 
+
+```{r, results='hide', message=F}
+
+data(World, metro)
+world_geo_borders <- World
+switz <- st_read('data/geo/switz/2/CHE_adm0.shp')     # Switzerland shapefile
+sing  <- st_read('data/geo/singapore/2/SGP_adm0.shp') # Singapore shapefile
+
+bbox_01 <- read_csv('data/geo/bbox_01.csv') %>% 
+  st_as_sf(
+    coords = c("longitude", "latitude")
+    , crs  = 4326
+    , agr  = "constant"
+  ) %>% 
+  st_bbox()
+
+```
+
+
+```{r}
+
+sing_switz <- switz %>% 
+  rbind(sing) %>% 
+  janitor::clean_names() %>% 
+  select(name_0) %>% 
+  rename(name = name_0)
+
+```
+
+
+```{r, results='hide', message=F}
+
+consig_country_sf <- read_csv('data/geo/consig_country.csv') %>% 
+  st_as_sf(
+    coords = c("longitude", "latitude")
+    , crs = 4326
+    , agr = "constant"
+  )
+
+```
+
+
+```{r}
+
+consignee_countries <- zinc_conc_model_data %>%
+  distinct(consignee_country) %>%
+  pull(consignee_country)
+
+consignee_countries
+
+sing_switz_metro <- metro %>%
+  filter(name %in% c('Zurich', 'Singapore')) %>%
+  mutate(name = ifelse(name == 'Zurich', 'Switzerland', name)) %>%
+  mutate(value_2 = c(1000, 2000))
+
+
+```
+
+
+
+### Spotlight on Trafigura Pte., Ltd.
+
+```{r, results='hide', message=F}
+
+shipment_destinations_sf_tra <- read_csv('data/geo/shipment_destination.csv')  %>% 
+  filter(consignee %in% c('Trafigura','both')) %>% 
+  st_as_sf(
+    coords = c("longitude", "latitude")
+    , crs = 4326
+    , agr = "constant"
+  )
+
+
+```
+
+#### Count of Shipment Destinations (2020)
+
+```{r, message=F}
+
+shpmnt_dstnns_cnt_tra <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2020) %>% 
+  filter(consignee == 'Trafigura Pte., Ltd.') %>% 
+  count(shipment_destination, sort = T) %>% 
+  rename(
+    name    = shipment_destination
+    , count = n
+    )
+
+shpmnt_dstnns_cnt_sf_tra <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_cnt_tra)
+
+shpmnt_dstnns_cnt_sf_tra %>% 
+  arrange(desc(count))
+
+```
+
+```{r}
+
+shpmnt_dstnns_cnt_sf_tra %>% 
+  arrange(desc(count)) %>% 
+  ggplot(aes(name, count, fill = name)) +
+  geom_bar(
+    stat = 'identity'
+    , show.legend = F
+    ) +
+  labs(
+    title      = 'Trafigura Pte., Ltd. Shippers. 2020'
+    , subtitle = ''
+    , x        = 'Shippers'
+    , y        = 'Count'
+  ) +
+  theme_tq()
+
+
+```
+
+
+
+
+```{r, message=F, out.width='100%'}
+
+cnt_sf_tra <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_cnt_sf_tra) +
+  tm_bubbles(
+    'count'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = 'Trafigura Pte., Ltd.'
+    )
+
+
+```
+
+
+#### Total Weight from each Shipper
+
+
+```{r message=F}
+
+shpmnt_dstnns_wght_sf_tra_2020 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2020) %>% 
+  filter(consignee == 'Trafigura Pte., Ltd.') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+shpmnt_dstnns_wght_sf_tra_2019 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2019) %>% 
+  filter(consignee == 'Trafigura Pte., Ltd.') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+shpmnt_dstnns_wght_sf_tra_2018 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2018) %>% 
+  filter(consignee == 'Trafigura Pte., Ltd.') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+
+shpmnt_dstnns_wght_sf_tra_2017 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2017) %>% 
+  filter(consignee == 'Trafigura Pte., Ltd.') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+
+
+shpmnt_dstnns_wght_sf_tra_2020_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_tra_2020) 
+  
+shpmnt_dstnns_wght_sf_tra_2019_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_tra_2019) 
+
+shpmnt_dstnns_wght_sf_tra_2018_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_tra_2018) 
+
+shpmnt_dstnns_wght_sf_tra_2017_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_tra_2017) 
+
+
+shpmnt_dstnns_wght_sf_tra_2020_b %>% 
+  arrange(desc(group_weight))
+  
+shpmnt_dstnns_wght_sf_tra_2019_b %>% 
+  arrange(desc(group_weight))
+
+shpmnt_dstnns_wght_sf_tra_2018_b %>% 
+  arrange(desc(group_weight))
+
+shpmnt_dstnns_wght_sf_tra_2017_b %>% 
+  arrange(desc(group_weight))
+
+
+
+```
+
+
+
+```{r}
+
+# 2020
+
+tra_2020 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_tra_2020_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2020"
+    )
+
+
+```
+
+
+
+```{r}
+
+# 2019
+
+tra_2019 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_tra_2019_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2019"
+    )
+
+
+```
+
+
+```{r}
+
+# 2018
+
+tra_2018 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_tra_2018_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2018"
+    )
+
+
+```
+
+
+```{r}
+
+# 2017
+
+tra_2017 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_tra_2017_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2017"
+    )
+
+
+```
+
+
+```{r, message=F, out.width='100%'}
+
+tmap_arrange(tra_2017, tra_2018, tra_2019, tra_2020)
+
+
+```
+
+
+
+### Spotlight on Glencore International Ag
+
+```{r, results='hide', message=F}
+
+shipment_destinations_sf_gln <- read_csv('data/geo/shipment_destination.csv')  %>% 
+  filter(consignee %in% c('Glencore','both')) %>% 
+  st_as_sf(
+    coords = c("longitude", "latitude")
+    , crs = 4326
+    , agr = "constant"
+  )
+
+
+```
+
+#### Count of Shipment Destinations (2020)
+
+```{r, message=F}
+
+shpmnt_dstnns_cnt_gln <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2020) %>% 
+  filter(consignee == 'Glencore International Ag') %>% 
+  count(shipment_destination, sort = T) %>% 
+  rename(
+    name    = shipment_destination
+    , count = n
+    )
+
+shpmnt_dstnns_cnt_sf_gln <- shipment_destinations_sf_gln %>% 
+  inner_join(shpmnt_dstnns_cnt_gln)
+
+shpmnt_dstnns_cnt_sf_gln %>% 
+  arrange(desc(count))
+
+```
+
+
+
+```{r}
+
+shpmnt_dstnns_cnt_sf_gln %>% 
+  arrange(desc(count)) %>% 
+  ggplot(aes(name, count, fill = name)) +
+  geom_bar(
+    stat = 'identity'
+    , show.legend = F
+    ) +
+  labs(
+    title      = 'Trafigura Pte., Ltd. Shippers. 2020'
+    , subtitle = ''
+    , x        = 'Shippers'
+    , y        = 'Count'
+  ) +
+  theme_tq()
+
+```
+
+
+
+
+```{r, message=F, out.width='100%'}
+
+cnt_sf_gln <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_cnt_sf_gln) +
+  tm_bubbles(
+    'count'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = 'Glencore International Ag'
+    )
+
+
+```
+
+
+#### Total Weight from each Shipper
+
+
+```{r message=F}
+
+shpmnt_dstnns_wght_sf_gln_2020 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2020) %>% 
+  filter(consignee == 'Glencore International Ag') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+shpmnt_dstnns_wght_sf_gln_2019 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2019) %>% 
+  filter(consignee == 'Glencore International Ag') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+shpmnt_dstnns_wght_sf_gln_2018 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2018) %>% 
+  filter(consignee == 'Glencore International Ag') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+
+shpmnt_dstnns_wght_sf_gln_2017 <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2017) %>% 
+  filter(consignee == 'Glencore International Ag') %>% 
+  group_by(shipment_destination) %>% 
+  mutate(group_weight = sum(weight, na.rm = T)) %>% 
+  ungroup() %>% 
+  select(shipment_destination, group_weight) %>% 
+  rename(name = shipment_destination) %>% 
+  distinct() 
+
+
+
+shpmnt_dstnns_wght_sf_gln_2020_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_gln_2020) 
+  
+shpmnt_dstnns_wght_sf_gln_2019_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_gln_2019) 
+
+shpmnt_dstnns_wght_sf_gln_2018_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_gln_2018) 
+
+shpmnt_dstnns_wght_sf_gln_2017_b <- shipment_destinations_sf_tra %>% 
+  inner_join(shpmnt_dstnns_wght_sf_gln_2017) 
+
+
+shpmnt_dstnns_wght_sf_gln_2020_b %>% 
+  arrange(desc(group_weight))
+  
+shpmnt_dstnns_wght_sf_gln_2019_b %>% 
+  arrange(desc(group_weight))
+
+shpmnt_dstnns_wght_sf_gln_2018_b %>% 
+  arrange(desc(group_weight))
+
+shpmnt_dstnns_wght_sf_gln_2017_b %>% 
+  arrange(desc(group_weight))
+
+
+
+```
+
+
+
+
+
+```{r}
+
+# 2020
+
+gln_2020 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_gln_2020_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2020"
+    )
+
+
+```
+
+
+
+```{r}
+
+# 2019
+
+gln_2019 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_gln_2019_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2019"
+    )
+
+
+```
+
+
+```{r}
+
+# 2018
+
+gln_2018 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_gln_2018_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2018"
+    )
+
+
+```
+
+
+```{r}
+
+# 2017
+
+gln_2017 <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(shpmnt_dstnns_wght_sf_gln_2017_b %>% 
+             mutate(group_weight = as.integer(group_weight))
+             ) +
+  tm_bubbles(
+    'group_weight'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = "2017"
+    )
+
+
+```
+
+
+```{r, message=F, out.width='100%'}
+
+tmap_arrange(gln_2017, gln_2018, gln_2019, gln_2020)
+
+
+```
+
+
+### 2020 Shipment Count (All Consignees)
+
+```{r, out.width='100%', message=F}
+
+zinc_conc_geo <- zinc_conc_model_data %>% 
+  mutate(year = year(date)) %>% 
+  filter(year == 2020) %>% 
+  count(consignee_country, sort = T)  %>% 
+  filter(!is.na(consignee_country)) %>% 
+  rename(
+    name = consignee_country
+    , `shipment count` = n
+  )
+
+consig_country_sf_wt_cnt <- consig_country_sf %>% 
+  left_join(zinc_conc_geo)
+
+consig_country_sf_wt_cnt
+
+```
+
+
+```{r, out.width='100%'}
+
+consig_count <- tm_shape(
+  world_geo_borders
+  , bbox = bbox_01
+  ) +
+  tm_borders() +
+  tm_shape(world_geo_borders) +
+  tm_polygons(col = "#edd185") +
+  tm_shape(consig_country_sf_wt_cnt) +
+  tm_bubbles(
+    'shipment count'
+    , col = 'red'
+  ) +
+  tm_text(
+    'name'
+    , auto.placement = 8
+  ) +
+  tm_layout(
+    legend.position = c("left", "bottom")
+    , title = 'All'
+    )
+
+
+
+```
+
+
+
+```{r, out.width='100%', message=F}
+
+tmap_arrange(
+  cnt_sf_tra
+  , cnt_sf_gln
+  , consig_count
+  , nrow = 3
+)
+
+
+
+```
+
+
+

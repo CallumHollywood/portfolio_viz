@@ -1,0 +1,453 @@
+---
+title: "covid"
+output: html_document
+date: "2022-09-15"
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "C:/nexus/biz/potential_biz/portfolio/charts/charts")
+
+pacman::p_load(
+  dplyr
+  , ggplot2
+  , tidyr
+)
+
+```
+
+
+```{r}
+
+covid_in <- readr::read_csv('data/covid/date,geoid,state,cases,cases_avg,cases_a.csv')
+
+
+```
+
+```{r}
+
+# covid_in %>% 
+#   select(state) %>% 
+#   distinct() %>% 
+#   arrange(state) %>% 
+#   readr::write_csv('data/covid/covid_states.csv')
+
+terrains <- readr::read_csv('data/covid/covid_states.csv')
+
+terrains <- terrains %>% 
+  mutate(terrain = stringr::str_to_title(terrain))
+
+```
+
+```{r}
+
+covid_terrains <- covid_in %>% 
+  inner_join(terrains, by = c('state'))
+
+covid_terrains 
+
+```
+
+
+```{r}
+
+covid_terrains <- covid_terrains %>% 
+  group_by(date, terrain) %>% 
+  mutate(
+    trn_cases_avg_per_100k = mean(cases_avg_per_100k, na.rm=T)
+    , trn_deaths_avg_per_100k = mean(deaths_avg_per_100k, na.rm=T)
+  ) %>% 
+  ungroup()
+
+covid_terrains
+
+```
+
+
+
+```{r}
+
+# covid_terrains %>% 
+#   ggplot(aes(date, trn_cases_avg_per_100k, color = terrain)) +
+#   geom_line()
+
+
+```
+
+
+```{r}
+
+# covid_terrains %>% 
+#   ggplot(aes(date, trn_deaths_avg_per_100k, color = terrain)) +
+#   geom_line()
+
+
+```
+
+
+
+```{r}
+
+covid_trn_lng <- covid_terrains %>% 
+  select(date, terrain, trn_cases_avg_per_100k, trn_deaths_avg_per_100k) %>% 
+  pivot_longer(3:4, names_to = 'metric') 
+
+covid_trn_lng
+
+```
+
+
+```{r}
+
+# covid_trn_lng %>% 
+#   ggplot(aes(date, value, color = metric)) +
+#   geom_line() +
+#   facet_wrap(~terrain + metric, ncol = 2, scales = 'free_y')
+
+
+```
+
+
+```{r}
+
+library(ggthemes)
+
+# covid_trn_lng_plt
+
+```
+
+```{r}
+
+covid_trn_lng_plt <- covid_trn_lng %>% 
+  mutate(metric = stringr::str_remove(metric, 'trn_')) %>% 
+  mutate(metric = stringr::str_replace_all(metric, '_', ' ')) %>% 
+  mutate(metric = str_replace_all(metric, 'cases ', 'Cases\n')) %>% 
+  mutate(metric = str_replace_all(metric, 'deaths ', 'Deaths\n')) %>% 
+  mutate(metric = str_replace_all(metric, 'avg ', 'avg\n'))
+
+covid_trn_lng_plt
+
+```
+
+
+
+```{r}
+
+
+
+
+# ggplot(aes(x = date, y = value, color = metric)) +
+# ggplot() + 
+#   # geom_line() +
+#   geom_line(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain == 'mainland', metric == 'cases avg per 100k')
+#     , stat = 'identity'
+#     , color = "#69b3a2"
+#     
+#     ) +
+#     geom_density(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain == 'mainland', metric != 'cases avg per 100k')
+#     , stat = 'identity'
+#     , fill = "#69b3a2"
+#     , color = "#69b3a2"
+#     ) +
+#     geom_line(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain != 'mainland', metric == 'cases avg per 100k')
+#     , stat = 'identity'
+#     , color = "#82a7e8"
+#     
+#     ) +
+#       geom_density(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain != 'mainland', metric != 'cases avg per 100k')
+#     , stat = 'identity'
+#     , fill = "#82a7e8"
+#     , color = "#82a7e8"
+#     ) +
+# 
+#   facet_grid(metric ~ terrain , scales = 'free_y') +
+#   theme_solarized() +
+#   theme(
+#     strip.text.y = element_text(angle = 0)
+#   ) 
+
+
+```
+
+
+```{r}
+
+# ggplot(mtcars, aes(mpg, wt, colour = factor(cyl))) + 
+#   geom_point() +
+#   ggh4x::facet_grid2(. ~ cyl, scales = "free_y", independent = "y")
+
+# 
+# plot_fndtion <- ggplot() + 
+#   # geom_line() +
+#   geom_density(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain == 'mainland', )
+#     , stat = 'identity'
+#     , fill = "#69b3a2"
+#     
+#     ) +
+#     geom_density(
+#     aes(x = date, y = value)
+#     , data = covid_trn_lng_plt %>% filter(terrain == 'Island')
+#     , stat = 'identity'
+#     , fill = "#82a7e8"
+#     
+#     ) +
+#   facet_grid(metric ~ terrain , scales = 'free_y') +
+#   # ggh4x::facet_grid2(terrain ~ metric, scales = "free_y", independent = "y") + 
+#   theme_solarized() +
+#   theme(
+#     strip.text.y = element_text(angle = 0)
+#   ) 
+
+
+```
+
+
+```{r}
+
+
+# ggplot(aes(x = date, y = value, color = metric)) +
+plot_fndtion <- ggplot() +
+  # geom_line() +
+  geom_line(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain == 'Mainland', metric == 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , color = "#69b3a2"
+    
+  ) +
+  geom_density(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain == 'Mainland', metric != 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , fill = "#69b3a2"
+    , color = "#69b3a2"
+  ) +
+  geom_line(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain != 'Mainland', metric == 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , color = "#82a7e8"
+    
+  ) +
+  geom_density(
+    aes(x = date, y = value)
+    , data = covid_trn_lng_plt %>% filter(terrain != 'Mainland', metric != 'Cases\navg\nper 100k')
+    , stat = 'identity'
+    , fill = "#82a7e8"
+    , color = "#82a7e8"
+  ) +
+  # scale_y_continuous(breaks = c(0,50,100)) +
+  facet_grid(metric ~ terrain , scales = 'free_y') +
+  # theme_solarized() +
+  theme_wsj() +
+  theme(
+    strip.text.y = element_text(angle = 0)
+    # , panel.grid = element_line(color = 'red')
+  )
+
+plot_fndtion_2 <- plot_fndtion +
+  labs(
+    title = "Comparison of Covid Cases & Deaths between Mainland and Island USA"
+    # , caption = 'This is a caption'
+  ) +
+  scale_y_continuous(n.breaks = 3) +
+  theme(
+    plot.title = element_text(size = 10)
+    , axis.text.y.left = element_text(size = 8)
+    , axis.text.x = element_text(size = 8)
+    , panel.spacing = unit(2, "lines")
+    # , plot.caption.position = 'panel'
+  )
+
+plot_fndtion_2
+
+```
+
+
+
+
+```{r}
+
+caption_df <- data.frame(
+  terrain = c('Island', 'Mainland'),
+  txt = c("carb=4", "carb=6")
+)
+
+
+plot_fndtion_2 +
+  # coord_cartesian(clip="off", ylim=c(0, 200)) +
+  geom_text(
+    data=caption_df
+    , y=250
+    , x=2021 # min(mtcars$qsec)
+    , mapping=aes(label=txt)
+    , hjust=0
+    , fontface="italic"
+    , color="red"
+  ) +
+  theme(plot.margin = margin(b=25))
+
+```
+
+
+
+```{r}
+
+data_text <- data.frame(
+  label = c("Text_1", "Text_2"),  # Create data for text
+  terrain = c('Island', 'Mainland'),
+  x = c(lubridate::ymd('2021-01-01'), lubridate::ymd('2021-01-01')),
+  y = c(-20))
+
+plot_fndtion_2 +                                                       # Add individual text to plot
+  geom_text(
+    data = data_text,
+            mapping = aes(x = x,
+                          y = y,
+                          label = label))
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+library(tidyverse)
+library(grid)
+
+
+p <- plot_fndtion
+g <- ggplot_gtable(ggplot_build(p))
+strip_t <- which(grepl('strip-t', g$layout$name))
+stripr <- which(grepl('strip-r', g$layout$name))
+fills <- c("red","green","blue","yellow")
+
+
+k <- 1
+for (i in stripr) {
+  j <- which(grepl('rect', g$grobs[[i]]$grobs[[1]]$childrenOrder))
+  g$grobs[[i]]$grobs[[1]]$children[[j]]$gp$fill <- fills[k]
+  k <- k+1
+}
+
+for (i in strip_t) {
+  j <- which(grepl('rect', g$grobs[[i]]$grobs[[1]]$childrenOrder))
+  g$grobs[[i]]$grobs[[1]]$children[[j]]$gp$fill <- fills[k]
+  k <- k+1
+}
+
+
+
+grid.draw(g)
+
+```
+
+
+
+
+
+
+```{r}
+
+
+p <- plot_fndtion
+p
+g <- ggplot_gtable(ggplot_build(p))
+strip_both <- which(grepl('strip-', g$layout$name))
+fills <- c("red","green","blue","yellow"
+           # ,"red","green","blue","yellow"
+)
+k <- 1
+for (i in strip_both) {
+  j <- which(grepl('rect', g$grobs[[i]]$grobs[[1]]$childrenOrder))
+  g$grobs[[i]]$grobs[[1]]$children[[j]]$gp$fill <- fills[k]
+  k <- k+1
+}
+grid.draw(g)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+covid_trn_lng_plt %>% 
+  select(terrain) %>% 
+  distinct()
+```
+
+
+
+
+
+
+
+
+
+```{r}
+
+covid_in %>% 
+  filter(state %in% c('Hawaii', 'Washington')) %>%
+  ggplot(aes(date, cases, color = state)) +
+  geom_line() +
+  facet_wrap(~state, ncol = 2)
+
+```
+
+```{r}
+
+
+covid_in %>% 
+  filter(state %in% c('Hawaii', 'Washington')) %>%
+  ggplot(aes(date, cases_avg_per_100k, color = state)) +
+  geom_line() +
+  facet_wrap(~state, ncol = 2)
+
+```
+

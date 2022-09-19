@@ -1,0 +1,179 @@
+---
+title: "Indoor Pollution"
+output: html_document
+date: "2022-09-14"
+---
+
+```{r setup, include=FALSE}
+
+options(scipen = 999)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+pacman::p_load(
+  dplyr
+  , skimr
+  , ggplot2
+  , tidyr
+)
+
+```
+
+
+```{r}
+
+tuesdata <- tidytuesdayR::tt_load('2022-04-12')
+
+```
+
+
+
+```{r}
+
+fuel_gdp         <- tuesdata$fuel_gdp %>% janitor::clean_names()
+fuel_access      <- tuesdata$fuel_access %>% janitor::clean_names()
+death_timeseries <- tuesdata$death_timeseries %>% janitor::clean_names()
+death_source     <- tuesdata$death_source %>% janitor::clean_names()
+death_fuel       <- tuesdata$death_fuel %>% janitor::clean_names()
+indoor_pollution <- tuesdata$indoor_pollution %>% janitor::clean_names()
+
+```
+
+### fuel_gdp
+
+```{r}
+
+fuel_gdp_wip <- fuel_gdp %>% 
+  rename(
+    access_pc       = access_to_clean_fuels_and_technologies_for_cooking_percent_of_population
+    , gdp           = gdp_per_capita_ppp_constant_2017_international	
+    , pop_estimates = population_historical_estimates
+    ) 
+  
+fuel_gdp_wip %>% 
+  filter(year == 2020)
+
+
+```
+
+
+```{r}
+
+fuel_gdp_wip %>% 
+  filter(!is.na(continent))
+
+```
+
+
+```{r}
+
+fuel_gdp_afg <- fuel_gdp_wip %>% 
+  filter(entity == 'Afghanistan') %>% 
+  filter(year   >= 2000)
+
+
+```
+
+
+```{r}
+
+fuel_gdp_afg %>% 
+  ggplot(aes(year, gdp)) +
+  geom_line(show.legend = F)
+
+
+```
+
+
+
+```{r}
+
+fuel_gdp_afg  %>% 
+  select(entity, year, access_pc, gdp, pop_estimates) %>% 
+  pivot_longer(3:5, names_to = 'item') %>% 
+  ggplot(aes(year, value, color = item)) +
+  geom_line(show.legend = F) +
+  facet_wrap(~item, ncol = 1, scales = 'free_y')
+
+
+```
+
+
+
+```{r}
+
+death_fuel_wip <- death_fuel %>% 
+  rename(
+    deaths_all_4 = deaths_cause_all_causes_risk_household_air_pollution_from_solid_fuels_sex_both_age_all_ages_number_4
+  , deaths_all_5 = deaths_cause_all_causes_risk_household_air_pollution_from_solid_fuels_sex_both_age_all_ages_number_5
+
+  )
+
+death_fuel_wip
+
+```
+
+
+
+```{r}
+
+death_fuel_wip %>% 
+  filter(entity == 'Afghanistan') %>% 
+  filter(year_3 >= 2000) %>% 
+  ggplot(aes(year_3, deaths_all_4)) +
+  geom_line(show.legend = F) 
+
+```
+
+
+
+
+```{r}
+
+death_source_wip <- death_source %>% 
+  rename(
+    deaths_all_stndzd_rate = deaths_cause_all_causes_risk_household_air_pollution_from_solid_fuels_sex_both_age_age_standardized_rate
+  )
+
+death_source_wip
+
+
+```
+
+
+```{r}
+
+indoor_pollution_wip <- indoor_pollution %>% 
+  rename(
+    deaths_all_pc = deaths_cause_all_causes_risk_household_air_pollution_from_solid_fuels_sex_both_age_age_standardized_percent
+  )
+
+indoor_pollution_wip
+
+```
+
+```{r}
+
+indoor_pollution_afg <- indoor_pollution_wip %>% 
+  filter(entity == 'Afghanistan') %>% 
+  filter(year >= 2000) 
+
+```
+
+
+```{r}
+
+indoor_pollution_afg %>% 
+  ggplot(aes(year, deaths_all_pc)) +
+  geom_line()
+
+```
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,536 @@
+---
+title: "Untitled"
+output: html_document
+date: "2022-09-16"
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir='C:/nexus/biz/potential_biz/portfolio/charts/charts')
+
+```
+
+
+
+```{r}
+
+library(rgdal)
+library(broom)
+library(ggplot2)
+library(svglite)
+library(tidyverse)
+library(maptools)
+library(raster)
+library(rgeos)
+
+```
+
+
+```{r}
+
+# https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption
+
+# load shape files
+
+# download.file("http://naciscdn.org/naturalearth/packages/natural_earth_vector.zip",
+#               "data/zips/world maps.zip")
+
+drinks <- readr::read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv') %>% 
+  janitor::clean_names()
+
+continents <- readr::read_csv('https://raw.githubusercontent.com/dbouquin/IS_608/master/NanosatDB_munging/Countries-Continents.csv') %>% 
+  janitor::clean_names()
+
+
+
+
+
+```
+
+```{r}
+
+drinks_wide <- drinks %>% 
+  left_join(continents, by = 'country') %>% 
+  mutate(continent = case_when(
+    country   == 'Niue'                         ~ 'Oceania'
+    , country == 'South Korea'                  ~ 'Asia'
+    , country == 'St. Kitts & Nevis'            ~ 'North America'
+    , country == 'St. Lucia'                    ~ 'Africa'
+    , country == 'St. Vincent & the Grenadines' ~ 'North America'
+    , country == 'Sao Tome & Principe'          ~ 'Africa'
+    , country == 'Timor-Leste'                  ~ 'Asia'
+    , country == 'Trinidad & Tobago'            ~ 'North America'
+    , country == 'USA'                          ~ 'North America'
+    , country == 'Antigua & Barbuda'            ~ 'North America'
+    , country == 'Bosnia-Herzegovina'           ~ 'Europe'
+    , country == 'Burkina Faso'                 ~ 'Africa'
+    , country == "Cote d'Ivoire"                ~ 'Africa'
+    , country == 'Cabo Verde'                   ~ 'Africa'
+    , country == 'Cook Islands'                 ~ 'Oceania'
+    , country == 'Czech Republic'               ~ 'Europe'
+    , country == 'North Korea'                  ~ 'Asia'
+    , country == 'DR Congo'                     ~ 'Africa'
+    , country == 'Myanmar'                      ~ 'Asia'
+    , T ~ continent
+  ))
+
+drinks_wide
+
+
+```
+
+```{r}
+
+drinks_cont <- drinks_wide %>% 
+  group_by(continent) %>% 
+  summarise(
+    beer_servings                  = mean(beer_servings, na.rm=T)
+    , spirit_servings              = mean(spirit_servings, na.rm=T)
+    , wine_servings                = mean(wine_servings, na.rm=T)
+    , total_litres_of_pure_alcohol = mean(total_litres_of_pure_alcohol, na.rm=T)
+  )
+
+drinks_cont
+
+```
+
+
+
+```{r}
+
+# unzip("data/zips/world maps.zip",
+#       exdir = "data/zips/Raw maps from zip")
+
+```
+
+
+```{r}
+
+library(sf)
+library(tidyverse)
+library(ggplot2)
+
+# world = read_sf(dsn   = "data/zips/Raw maps from zip/110m_cultural",
+#                 layer = "ne_110m_admin_0_countries")
+
+world = readOGR(dsn   = "data/zips/Raw maps from zip/110m_cultural",
+                layer = "ne_110m_admin_0_countries")
+
+world
+
+```
+
+
+```{r}
+
+# sort(names(world@data))
+
+# world@data %>% 
+#   select('NAME', 'CONTINENT') %>% 
+#   arrange(NAME)
+
+
+world@data <- world@data %>% 
+  mutate(CONTINENT = if_else(NAME == 'Russia', 'Asia', CONTINENT))
+
+```
+
+
+
+
+```{r}
+
+# Reshape the world data so that polygons are continents not countries
+world_id    = world@data$CONTINENT
+world_union = unionSpatialPolygons(world, world_id)
+
+```
+
+```{r}
+
+world_fortified = tidy(world_union, region = "CONTINENT")
+
+# Here I create some dummy survey results
+results = data.frame(id             = c("Africa", "Asia", "Europe", "North America", "Oceania", "South America"),
+                     kpi            = c(20, 30, 50, 50, 60, 70),
+                     continent_long = c(15, 80, 20, -100, 150, -60),
+                     continent_lat  = c(15, 35, 50, 40, -25, -15),
+                     stringsAsFactors = F)
+
+
+```
+
+
+
+
+```{r}
+
+# Combine world map with results and drop Antarctica and seaven Seas
+world_for_plot = world_fortified %>%
+  left_join(., results, by = "id") %>%
+  filter(!is.na(kpi))
+
+
+
+```
+
+
+
+```{r}
+
+# Let's create the plot first wit data and let's care about the labels later
+plain <- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank(),
+  panel.background = element_rect(fill = "transparent"),
+  plot.background = element_rect(fill = "transparent"),
+  plot.title = element_text(hjust = 0.5)
+)
+
+```
+
+
+```{r}
+
+# This is the actual results plot with different colours based on the results
+raw_plot = ggplot(
+  data = world_for_plot
+  , aes(x = long, y = lat, group = group)
+) +
+  geom_polygon( #fill = 'red'
+    aes(
+      fill = kpi
+    )
+  ) +
+  coord_equal(1.3) +
+  scale_fill_distiller(palette = "RdYlGn", direction = 1) +
+  labs(fill = "kpi") +
+  plain
+
+raw_plot
+
+```
+
+
+```{r}
+
+mtrc = tibble(
+  mtrc = world_for_plot %>% dplyr::select(id) %>% dplyr::distinct() %>% arrange(id) %>% pull()
+) 
+
+
+mtrc
+
+```
+
+
+```{r}
+
+
+
+
+ggplot(
+  data = world_for_plot
+  , aes(x = long, y = lat, group = group)
+) +
+  geom_polygon( #fill = 'red'
+    aes(fill = id)
+    , show.legend = F
+    # fill = "red"
+    
+  ) +
+  coord_equal(1.3) +
+  scale_fill_discrete() +
+  # labs(fill = "kpi") +
+  plain
+
+
+```
+
+```{r}
+
+
+
+```
+
+
+```{r}
+
+
+drinks_geo = data.frame(
+  # continent = c("Africa", "Asia", "Europe", "North America", "Oceania", "South America")
+  continent   = sort(unique(world_for_plot$id))
+  , longitude = c(15, 80, 10, -100, 135, -60)
+  , latitude  = c(15, 50, 50,   40, -25, -15)
+  , stringsAsFactors = F
+  , beer_servings                = drinks_cont$beer_servings     # sample(1:100, 6)
+  , spirit_servings              = drinks_cont$spirit_servings     # sample(1:100, 6)
+  , wine_servings                = drinks_cont$wine_servings     # sample(1:100, 6)
+  , total_litres_of_pure_alcohol = drinks_cont$total_litres_of_pure_alcohol  
+)
+
+drinks_geo
+
+```
+
+```{r}
+
+plain <- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank(),
+  panel.background = element_rect(fill = "transparent"),
+  plot.background  = element_rect(fill = "transparent"),
+  plot.title = element_text(hjust = 0.5)
+  # , legend.position = 'none'
+)
+
+```
+
+
+```{r}
+
+ggplot(
+  data = world_for_plot
+  , aes(x = long, y = lat, group = group)
+) +
+  geom_polygon( #fill = 'red'
+    aes(fill = id)
+    , show.legend = F
+    # fill = "red"
+    
+  ) +
+  geom_scatterpie(
+    aes(x=longitude, y=latitude, group = continent, r = 10)
+    , data = drinks_geo
+    , cols = colnames(drinks_geo[,c('beer_servings','spirit_servings','wine_servings'
+                                    # , 'total_litres_of_pure_alcohol'
+    )])
+    # , fill = c('red', 'blue', 'green')
+  ) +
+  scale_fill_brewer(palette = "Paired") +
+  
+  coord_equal(1.3) +
+  # scale_fill_discrete() +
+  # labs(fill = "kpi") +
+  plain
+
+
+```
+
+
+
+```{r, warning=FALSE, fig.height=10}
+
+library(ggthemes)
+library(hrbrthemes)
+library(ggdark)
+library(scatterpie)
+
+img <- png::readPNG('data/img/brown4.png')
+
+gplt_01 <- ggplot(
+  data = world_for_plot
+  , aes(x = long, y = lat, group = group)
+) +
+  background_image(img) +
+  geom_polygon( 
+    fill = 'red'
+    # aes(fill = id)
+    , show.legend = F
+    # fill = "red"
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[1])
+    , color = 'black'
+  ) +
+  geom_polygon( 
+    fill = 'blue'
+    # aes(fill = id)
+    , show.legend = F
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[2])
+    , color = 'black'
+  ) +
+  geom_polygon( 
+    fill = 'green'
+    # aes(fill = id)
+    , show.legend = F
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[3])
+    , color = 'black'
+  ) +
+  geom_polygon( 
+    fill = 'pink'
+    # aes(fill = id)
+    , show.legend = F
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[4])
+    , color = 'black'
+  ) +
+  geom_polygon( 
+    fill = 'brown'
+    # aes(fill = id)
+    , show.legend = F
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[5])
+    , color = 'black'
+  ) +
+  geom_polygon( 
+    fill = 'yellow'
+    # aes(fill = id)
+    , show.legend = F
+    # fill = "red"
+    , data = world_for_plot %>% dplyr::filter(id == drinks_geo$continent[6])
+    , color = 'black'
+  ) +
+  geom_scatterpie(
+    aes(x=longitude, y=latitude, group = continent, r = total_litres_of_pure_alcohol * 1.3)
+    , data = drinks_geo
+    # , cols = colnames(drinks_geo[,c('x','y','z')])
+    , cols = colnames(drinks_geo[,c('beer_servings','spirit_servings','wine_servings'
+                                    # , 'total_litres_of_pure_alcohol'
+    )])
+    # , fill = c('red', 'blue', 'green')
+    
+  ) +
+  
+  geom_scatterpie_legend(
+    seq(1, ceiling(max(drinks_geo$total_litres_of_pure_alcohol) ), length = 4)
+    , x = 160
+    , y = 10
+    , labeller = function(x) x 
+    # , color = 'white'
+  ) +
+  
+  scale_fill_brewer(palette = "Paired") +
+  
+  coord_equal(1.3) +
+  # scale_fill_discrete() +
+  # labs(fill = "kpi") +
+  # plain +
+  # theme_calc()
+  theme_economist() 
+
+gplt_01
+
+```
+
+
+
+```{r, fig.height=8}
+
+library(ggeasy)
+library(ggpubr)
+
+gplt_01 +
+  labs(
+    title = 'This is a title'
+    , subtitle = '\n\n'
+    , fill = NULL
+    , x = NULL
+    , y = NULL
+  ) +
+  # theme_ft_rc() + 
+  # dark_theme_void() +
+  theme(
+    legend.position = "bottom"
+    , axis.title = element_blank()
+    , axis.text = element_blank()
+    , panel.grid.major = element_blank()
+    , panel.background = element_rect(fill = "transparent")
+    , plot.background  = element_rect(fill = "transparent")
+    ) +
+  easy_remove_x_axis() +
+  annotate("text", x = 4, y = 25, label = "Some text")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+## Now automatically adding label positions form the shapefile
+
+# We start with getting the centroid positions of each continent and delete the continents we don't have
+position = coordinates(world_union)
+
+position = data.frame(position, row.names(position))
+names(position) = c("long", "lat", "id")
+
+position = position %>%
+  filter(id %in% world_for_plot$id)
+
+```
+
+```{r}
+
+# We can now refer to this new data in our previously created plot object
+final_plot = raw_plot +
+  geom_text(data = position,
+            aes(label = id,
+                x = long,
+                y = lat,
+                group = id))
+
+final_plot
+
+```
+
+```{r}
+
+
+final_plot = raw_plot +
+  geom_text(data = results,
+            aes(label = id,
+                x = continent_long,
+                y = continent_lat,
+                group = id))
+
+final_plot
+
+```
+
+
+
+
+```{r}
+
+continents = world %>%
+  group_by(CONTINENT) %>%
+  summarise(.)
+
+```
+
+
+
+
+
+
